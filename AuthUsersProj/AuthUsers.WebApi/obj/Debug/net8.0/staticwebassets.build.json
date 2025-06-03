@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Fmd83utibVKqT5HdiPoN604ojtqeZ10nJcW13yBZxZU=",
+  "Source": "AuthUsers.WebApi",
+  "BasePath": "_content/AuthUsers.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
