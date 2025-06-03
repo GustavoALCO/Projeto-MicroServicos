@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "AuthUsers.Aplication/1.0.0": {
+        "dependencies": {
+          "AuthUsers.domain": "1.0.0"
+        },
+        "runtime": {
+          "AuthUsers.Aplication.dll": {}
+        }
+      },
+      "AuthUsers.domain/1.0.0": {
+        "runtime": {
+          "AuthUsers.domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AuthUsers.Aplication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AuthUsers.domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

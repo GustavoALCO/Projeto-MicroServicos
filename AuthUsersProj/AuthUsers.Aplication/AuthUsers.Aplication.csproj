@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AuthUsers.dommain\AuthUsers.domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Commands\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Settings\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="Validator\" />
+    <Folder Include="Services\" />
+    <Folder Include="Query\" />
+  </ItemGroup>
+
+</Project>
