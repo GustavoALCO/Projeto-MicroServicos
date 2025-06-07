@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AuthUsers.Aplication\AuthUsers.Aplication.csproj" />
     <ProjectReference Include="..\AuthUsers.infra\AuthUsers.infra.csproj" />
   </ItemGroup>
 

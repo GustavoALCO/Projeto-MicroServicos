@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "ContainingType": "AuthUsers.WebApi.Controllers.EmployeeControllers",
+    "Method": "PostEmployee",
+    "RelativePath": "CreateEmployee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createEmployee",
+        "Type": "AuthUsers.Aplication.Commands.Employee.CreateEmployeeCommands",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

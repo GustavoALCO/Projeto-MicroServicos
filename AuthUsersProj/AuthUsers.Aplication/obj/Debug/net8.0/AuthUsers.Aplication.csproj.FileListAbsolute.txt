@@ -13,3 +13,4 @@ D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\
 D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\refint\AuthUsers.Aplication.dll
 D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\AuthUsers.Aplication.pdb
 D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\ref\AuthUsers.Aplication.dll
+D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\AuthUsers.Aplication.sourcelink.json
