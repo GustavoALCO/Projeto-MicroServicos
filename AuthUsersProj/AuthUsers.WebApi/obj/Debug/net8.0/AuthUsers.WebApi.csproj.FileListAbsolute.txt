@@ -51,3 +51,9 @@ D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.WebApi\obj\Debug\net8.0\refi
 D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.WebApi\obj\Debug\net8.0\AuthUsers.WebApi.pdb
 D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.WebApi\obj\Debug\net8.0\AuthUsers.WebApi.genruntimeconfig.cache
 D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.WebApi\obj\Debug\net8.0\ref\AuthUsers.WebApi.dll
+D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.WebApi\obj\Debug\net8.0\AuthUsers.WebApi.sourcelink.json
+D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.WebApi\bin\Debug\net8.0\FluentValidation.dll
+D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.WebApi\bin\Debug\net8.0\MediatR.dll
+D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.WebApi\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.WebApi\bin\Debug\net8.0\AuthUsers.Aplication.dll
+D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.WebApi\bin\Debug\net8.0\AuthUsers.Aplication.pdb

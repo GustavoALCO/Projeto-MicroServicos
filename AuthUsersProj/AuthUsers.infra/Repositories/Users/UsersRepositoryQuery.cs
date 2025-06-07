@@ -57,13 +57,14 @@ public class UsersRepositoryQuery : IUserRepositoryQuery
         return users;
     }
 
-    public async Task<IEnumerable<domain.Entities.Users?>> UserFilterAsync(IQueryable<domain.Entities.Users> users, int page)
+    public async Task<IEnumerable<domain.Entities.Users>?> UserFilterAsync(IQueryable<domain.Entities.Users> users, int page)
     {
         var Users = await users.Take(page).ToListAsync();
 
         if (users == null)
         {
             _logger.LogWarning($"Usuarios não encontrado pelo filtro");
+            return null;
         }
 
         return Users;

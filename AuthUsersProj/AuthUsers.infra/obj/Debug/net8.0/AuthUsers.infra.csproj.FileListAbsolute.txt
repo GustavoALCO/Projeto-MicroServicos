@@ -15,3 +15,4 @@ D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.infra\obj\Debug\net8.0\refin
 D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.infra\obj\Debug\net8.0\AuthUsers.infra.pdb
 D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.infra\obj\Debug\net8.0\AuthUsers.infra.genruntimeconfig.cache
 D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.infra\obj\Debug\net8.0\ref\AuthUsers.infra.dll
+D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.infra\obj\Debug\net8.0\AuthUsers.infra.sourcelink.json

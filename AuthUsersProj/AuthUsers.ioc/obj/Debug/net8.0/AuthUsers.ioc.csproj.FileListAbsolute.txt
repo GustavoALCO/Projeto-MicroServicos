@@ -15,3 +15,6 @@ D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.ioc\obj\Debug\net8.0\AuthUse
 D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.ioc\obj\Debug\net8.0\refint\AuthUsers.ioc.dll
 D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.ioc\obj\Debug\net8.0\AuthUsers.ioc.pdb
 D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.ioc\obj\Debug\net8.0\ref\AuthUsers.ioc.dll
+D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.ioc\obj\Debug\net8.0\AuthUsers.ioc.sourcelink.json
+D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.ioc\bin\Debug\net8.0\AuthUsers.Aplication.dll
+D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.ioc\bin\Debug\net8.0\AuthUsers.Aplication.pdb
