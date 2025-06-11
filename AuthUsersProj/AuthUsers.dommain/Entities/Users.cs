@@ -13,7 +13,7 @@ public class Users
 
     public required string Cpf { get; set; }
 
-    public required string[] PhoneNumber { get; set; }
+    public required string PhoneNumber { get; set; }
 
     public required string Email { get; set; }
 
@@ -23,4 +23,5 @@ public class Users
 
     public bool IsValid { get; set; }
 
+    public AuditLog AuditLog { get; set; }
 }

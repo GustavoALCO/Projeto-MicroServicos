@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AuthUsers.ioc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+002968f09b5548037f47df703ab3e6d623654329")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cfd336b74d1c7dc8a3fb488b63cdb73d4a86a965")]
 [assembly: System.Reflection.AssemblyProductAttribute("AuthUsers.ioc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AuthUsers.ioc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

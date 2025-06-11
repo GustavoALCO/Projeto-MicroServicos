@@ -14,3 +14,19 @@ D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\
 D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\AuthUsers.Aplication.pdb
 D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\ref\AuthUsers.Aplication.dll
 D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\AuthUsers.Aplication.sourcelink.json
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\bin\Debug\net8.0\AuthUsers.Aplication.deps.json
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\bin\Debug\net8.0\AuthUsers.Aplication.dll
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\bin\Debug\net8.0\AuthUsers.Aplication.pdb
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\bin\Debug\net8.0\AuthUsers.domain.dll
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\bin\Debug\net8.0\AuthUsers.domain.pdb
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\AuthUsers.Aplication.csproj.AssemblyReference.cache
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\AuthUsers.Aplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\AuthUsers.Aplication.AssemblyInfoInputs.cache
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\AuthUsers.Aplication.AssemblyInfo.cs
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\AuthUsers.Aplication.csproj.CoreCompileInputs.cache
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\AuthUsers.Aplication.sourcelink.json
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\AuthUser.A86B5CAC.Up2Date
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\AuthUsers.Aplication.dll
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\refint\AuthUsers.Aplication.dll
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\AuthUsers.Aplication.pdb
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\ref\AuthUsers.Aplication.dll

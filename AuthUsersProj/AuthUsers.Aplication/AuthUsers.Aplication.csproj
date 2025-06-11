@@ -11,10 +11,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Commands\Users\" />
     <Folder Include="Settings\" />
     <Folder Include="DTOs\" />
     <Folder Include="Query\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Commands\Users\ChangeNameUserCommands.cs" />
   </ItemGroup>
 
   <ItemGroup>
