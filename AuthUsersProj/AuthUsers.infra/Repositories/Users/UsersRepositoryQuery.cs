@@ -22,15 +22,27 @@ public class UsersRepositoryQuery : IUserRepositoryQuery
         _logger = logger;
     }
 
-    public Task<IEnumerable<domain.Entities.Users?>> GetAllUsersAsync(int page)
+    public async Task<IEnumerable<domain.Entities.Users?>> GetAllUsersAsync(int page)
     {
-        var Users = _dbusers.Where(x => x.IsValid == true).ToList().Take(page);
+        var Users = await _dbusers.Where(x => x.IsValid == true).Take(page).ToListAsync();
 
         if (Users.Count() < 1)
             _logger.LogWarning($"Não existe nenhum Usuario para ser Mostrado");
 
 
-        return (Task<IEnumerable<domain.Entities.Users?>>)Users;
+        return Users;
+    }
+
+    public async Task<domain.Entities.Users> GetUserCPFAsync(string cpf)
+    {
+        var users = await _dbusers.FirstOrDefaultAsync(x => x.Cpf == cpf);
+
+        if (users == null)
+        {
+            _logger.LogWarning($"Usuário com cpf '{cpf}' não encontrado.");
+        }
+
+        return users;
     }
 
     public async Task<domain.Entities.Users?> GetUserEmailAsync(string email)

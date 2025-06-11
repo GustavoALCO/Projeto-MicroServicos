@@ -16,3 +16,21 @@ D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.infra\obj\Debug\net8.0\AuthU
 D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.infra\obj\Debug\net8.0\AuthUsers.infra.genruntimeconfig.cache
 D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.infra\obj\Debug\net8.0\ref\AuthUsers.infra.dll
 D:\Projeto de Microservicos\AuthUsersProj\AuthUsers.infra\obj\Debug\net8.0\AuthUsers.infra.sourcelink.json
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.infra\obj\Debug\net8.0\AuthUsers.infra.csproj.AssemblyReference.cache
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.infra\obj\Debug\net8.0\AuthUsers.infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.infra\obj\Debug\net8.0\AuthUsers.infra.AssemblyInfoInputs.cache
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.infra\obj\Debug\net8.0\AuthUsers.infra.AssemblyInfo.cs
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.infra\obj\Debug\net8.0\AuthUsers.infra.csproj.CoreCompileInputs.cache
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.infra\obj\Debug\net8.0\AuthUsers.infra.sourcelink.json
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.infra\obj\Debug\net8.0\AuthUsers.infra.dll
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.infra\obj\Debug\net8.0\refint\AuthUsers.infra.dll
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.infra\obj\Debug\net8.0\AuthUsers.infra.pdb
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.infra\bin\Debug\net8.0\AuthUsers.infra.deps.json
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.infra\bin\Debug\net8.0\AuthUsers.infra.runtimeconfig.json
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.infra\bin\Debug\net8.0\AuthUsers.infra.dll
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.infra\bin\Debug\net8.0\AuthUsers.infra.pdb
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.infra\bin\Debug\net8.0\AuthUsers.domain.dll
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.infra\bin\Debug\net8.0\AuthUsers.domain.pdb
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.infra\obj\Debug\net8.0\AuthUser.F63B766B.Up2Date
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.infra\obj\Debug\net8.0\AuthUsers.infra.genruntimeconfig.cache
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.infra\obj\Debug\net8.0\ref\AuthUsers.infra.dll

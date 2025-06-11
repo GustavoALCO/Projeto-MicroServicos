@@ -41,7 +41,6 @@ public class CreateEmployeeHandlers : IRequestHandler<CreateEmployeeCommands, Un
             //Detalhando os Erros no Log para uma analise futura 
             _logger.LogWarning("Falha na validação do Funcionario: {Errors}", string.Join("; ", validation.Errors.Select(e => e.ErrorMessage)));
 
-            //Retorna NULL 
             throw new ValidationException(validation.Errors);
         }
 

@@ -4,15 +4,9 @@ namespace AuthUsers.domain.Interfaces.Users;
 
 public interface IUserRepositoryCommands
 {
-    public Task ChangeUserPassword(Guid userId, string newPasswordHash);
+    public Task UpdateUserAync(Entities.Users user);
 
-    public Task UpdateUserProfile(Guid userId, string name);
+    public Task CreateUserAsync(Entities.Users user);
 
-    public Task ActivateUserAsync(Guid userId);
-
-    public Task DeactivateUserAsync(Guid userId);
-
-    public Task<Task?> CreateUserAsync(Entities.Users user);
-
-    public Task DeleteUserAsync(Guid userId);
+    public Task DeleteUserAsync(Entities.Users user);
 }
