@@ -17,6 +17,7 @@ public class HashService
     {
         var isvalid = _passwordHasher.VerifyHashedPassword(user, hashedPassword, providedPassword);
         //Para Usar a verificação da Senha deve se Passar o Usuario, SenhaHash e request da senha
+
         return isvalid == PasswordVerificationResult.Success;
         //Retorna True ou False  
     }

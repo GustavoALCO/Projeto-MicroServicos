@@ -118,3 +118,8 @@ C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.WebApi\obj\Debug\net8.0\staticw
 C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.WebApi\obj\Debug\net8.0\AuthUser.7E3A4F35.Up2Date
 C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.WebApi\obj\Debug\net8.0\AuthUsers.WebApi.genruntimeconfig.cache
 C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.WebApi\obj\Debug\net8.0\ref\AuthUsers.WebApi.dll
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.WebApi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
