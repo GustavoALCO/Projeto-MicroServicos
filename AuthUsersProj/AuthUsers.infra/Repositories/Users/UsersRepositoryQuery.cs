@@ -13,12 +13,12 @@ public class UsersRepositoryQuery : IUserRepositoryQuery
 
     private readonly DbSet<domain.Entities.Users> _dbusers;
 
-    private readonly ILogger _logger;
+    private readonly ILogger<UsersRepositoryQuery> _logger;
 
-    public UsersRepositoryQuery(DbConfig.DbConfig db, DbSet<domain.Entities.Users> dbusers, ILogger logger)
+    public UsersRepositoryQuery(DbConfig.DbConfig db, ILogger<UsersRepositoryQuery> logger)
     {
         _db = db;
-        _dbusers = dbusers;
+        _dbusers = _db.Users;
         _logger = logger;
     }
 

@@ -13,9 +13,9 @@ public class DeactivateEmployeeHandlers : IRequestHandler<DeactivateEmployeeComm
 
     private readonly IEmployeeRepositoryQuery _query;
 
-    private readonly ILogger _logger;
+    private readonly ILogger<DeactivateEmployeeHandlers> _logger;
 
-    public DeactivateEmployeeHandlers(ILogger logger, IEmployeeRepositoryQuery query, IEmployeeRepositoryCommands commands)
+    public DeactivateEmployeeHandlers(ILogger<DeactivateEmployeeHandlers> logger, IEmployeeRepositoryQuery query, IEmployeeRepositoryCommands commands)
     {
         _logger = logger;
         _query = query;

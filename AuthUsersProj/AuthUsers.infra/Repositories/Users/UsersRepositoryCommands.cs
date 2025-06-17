@@ -11,9 +11,9 @@ public class UsersRepositoryCommands : IUserRepositoryCommands
 
     private readonly DbSet<domain.Entities.Users> _DBUsers;
 
-    private readonly ILogger _logger;
+    private readonly ILogger<UsersRepositoryCommands> _logger;
 
-    public UsersRepositoryCommands(DbConfig.DbConfig dbConfig, DbSet<domain.Entities.Users> users,ILogger logger)
+    public UsersRepositoryCommands(DbConfig.DbConfig dbConfig,ILogger<UsersRepositoryCommands> logger)
     {
         _dbConfig = dbConfig;
         _DBUsers = _dbConfig.Users;

@@ -10,13 +10,12 @@ public class EmployeeRepositoryQuery : IEmployeeRepositoryQuery
 
     private readonly DbSet<domain.Entities.Employee> _DbEmployee;
 
-    private readonly ILogger _logger;
+    private readonly ILogger<EmployeeRepositoryQuery> _logger;
 
-    public EmployeeRepositoryQuery(DbConfig.DbConfig dbConfig, ILogger logger)
+    public EmployeeRepositoryQuery(DbConfig.DbConfig dbConfig, ILogger<EmployeeRepositoryQuery> logger)
     {
 
         _dbConfig = dbConfig;
-
         _DbEmployee = _dbConfig.Employee;
         _logger = logger;
     }

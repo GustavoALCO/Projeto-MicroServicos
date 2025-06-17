@@ -8,13 +8,13 @@ namespace AuthUsers.Aplication.Commands.Users.Handlers;
 public class ChangeNameUserHandler : IRequestHandler<ChangeNameUserCommands, Unit>
 {
 
-    private readonly ILogger _logger;
+    private readonly ILogger<ChangeNameUserHandler> _logger;
 
     private readonly IUserRepositoryCommands _commands;
 
     private readonly IUserRepositoryQuery _query;
 
-    public ChangeNameUserHandler(IUserRepositoryQuery query, IUserRepositoryCommands commands, ILogger logger)
+    public ChangeNameUserHandler(IUserRepositoryQuery query, IUserRepositoryCommands commands, ILogger<ChangeNameUserHandler> logger)
     {
         _query = query;
         _commands = commands;

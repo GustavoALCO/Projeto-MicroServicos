@@ -12,9 +12,9 @@ public class ActivateEmployeeHandler : IRequestHandler<ActivateEmployeeCommands,
 
     private readonly IEmployeeRepositoryQuery _query;
 
-    private readonly ILogger _logger;
+    private readonly ILogger<ActivateEmployeeHandler> _logger;
 
-    public ActivateEmployeeHandler(ILogger logger, IEmployeeRepositoryQuery query, IEmployeeRepositoryCommands commands)
+    public ActivateEmployeeHandler(ILogger<ActivateEmployeeHandler> logger, IEmployeeRepositoryQuery query, IEmployeeRepositoryCommands commands)
     {
         _logger = logger;
         _query = query;

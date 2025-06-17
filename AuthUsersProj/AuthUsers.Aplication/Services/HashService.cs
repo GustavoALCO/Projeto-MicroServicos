@@ -1,8 +1,9 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using AuthUsers.Aplication.Interfaces;
+using Microsoft.AspNetCore.Identity;
 
 namespace AuthUsers.Aplication.Services;
 
-public class HashService
+public class HashService : IPasswordHasher
 {
 
     private readonly PasswordHasher<object> _passwordHasher = new PasswordHasher<object>();

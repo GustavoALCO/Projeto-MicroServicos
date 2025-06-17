@@ -1,6 +1,8 @@
-﻿namespace AuthUsers.Aplication.Services;
+﻿using AuthUsers.Aplication.Interfaces;
 
-public class ValidateCPF
+namespace AuthUsers.Aplication.Services;
+
+public class ValidateCPF : IValidateCPF
 {
     public bool CPFIsValid(string cpf)
     {

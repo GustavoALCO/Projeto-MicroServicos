@@ -11,7 +11,7 @@ public class ContextDBFactory : IDesignTimeDbContextFactory<DbConfig>
         var optionsBuilder = new DbContextOptionsBuilder<DbConfig>();
 
 
-        optionsBuilder.UseNpgsql("Server=localhost,8002;Database=WEBAPI;User Id=sa;Password=P@ssw0rd!;TrustServerCertificate=True;");
+        optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=authdb;Username=authuser;Password=Teste123");
 
         return new DbConfig(optionsBuilder.Options);
     }

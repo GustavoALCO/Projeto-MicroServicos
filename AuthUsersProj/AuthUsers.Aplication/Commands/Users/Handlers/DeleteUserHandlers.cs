@@ -10,9 +10,9 @@ public class DeleteUserHandlers : IRequestHandler<DeleteUserCommands, Unit>
 
     private readonly IUserRepositoryCommands _command;
 
-    private readonly ILogger _logger;
+    private readonly ILogger<DeleteUserHandlers> _logger;
 
-    public DeleteUserHandlers(ILogger logger, IUserRepositoryQuery query, IUserRepositoryCommands command)
+    public DeleteUserHandlers(ILogger<DeleteUserHandlers> logger, IUserRepositoryQuery query, IUserRepositoryCommands command)
     {
         _logger = logger;
         _query = query;

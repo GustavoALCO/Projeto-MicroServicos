@@ -8,14 +8,14 @@ namespace AuthUsers.Aplication.Commands.Employee.Handlers;
 
 public class LoginEmployeeHandlers : IRequestHandler<LoginEmployeeCommands, string>
 {
-    private readonly ILogger _logger;
+    private readonly ILogger<LoginEmployeeHandlers> _logger;
 
     private readonly IEmployeeRepositoryQuery _query;
 
     private readonly IPasswordHasher _hasher;
 
     private readonly IJWTService _jwt;
-    public LoginEmployeeHandlers(IEmployeeRepositoryQuery query, ILogger logger, IPasswordHasher hasher, IJWTService jwt)
+    public LoginEmployeeHandlers(IEmployeeRepositoryQuery query, ILogger<LoginEmployeeHandlers> logger, IPasswordHasher hasher, IJWTService jwt)
     {
         _query = query;
         _logger = logger;

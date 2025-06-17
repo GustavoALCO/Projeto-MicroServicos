@@ -10,9 +10,9 @@ public class EmailConfirmedHandlers : IRequestHandler<EmailConfirmedCommands, Un
 
     private readonly IUserRepositoryCommands _command;
 
-    private readonly ILogger _logger;
+    private readonly ILogger<EmailConfirmedHandlers> _logger;
 
-    public EmailConfirmedHandlers(ILogger logger, IUserRepositoryQuery query, IUserRepositoryCommands command)
+    public EmailConfirmedHandlers(ILogger<EmailConfirmedHandlers> logger, IUserRepositoryQuery query, IUserRepositoryCommands command)
     {
         _logger = logger;
         _query = query;
