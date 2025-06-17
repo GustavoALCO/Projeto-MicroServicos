@@ -10,7 +10,7 @@ namespace AuthUsers.Aplication.Commands.Users.Handlers;
 public class CreateUsersHandlers : IRequestHandler<CreateUsersCommands, Unit>
 {
 
-    private readonly ILogger _logger;
+    private readonly ILogger<ChangeLoginUserHandlers> _logger;
 
     private readonly IUserRepositoryQuery _query;
 
@@ -22,7 +22,7 @@ public class CreateUsersHandlers : IRequestHandler<CreateUsersCommands, Unit>
 
     private IValidateCPF _validateCPF;
 
-    public CreateUsersHandlers(IPasswordHasher passwordHasher, IValidator<CreateEmployeeCommands> validator, IUserRepositoryCommands commands, IUserRepositoryQuery query, ILogger logger, IValidateCPF validateCPF)
+    public CreateUsersHandlers(IPasswordHasher passwordHasher, IValidator<CreateEmployeeCommands> validator, IUserRepositoryCommands commands, IUserRepositoryQuery query, ILogger<ChangeLoginUserHandlers> logger, IValidateCPF validateCPF)
     {
         _passwordHasher = passwordHasher;
         _validator = validator;

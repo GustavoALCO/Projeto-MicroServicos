@@ -13,15 +13,12 @@ public class EmployeeRepositoryCommands : IEmployeeRepositoryCommands
 
     private readonly DbSet<domain.Entities.Employee> _DbEmployee;
 
-    private readonly IEmployeeRepositoryQuery _employee;
+    private readonly ILogger<EmployeeRepositoryCommands> _logger;
 
-    private readonly ILogger _logger;
-
-    public EmployeeRepositoryCommands(IEmployeeRepositoryQuery employee, DbSet<domain.Entities.Employee> dbEmployee, DbConfig.DbConfig dbConfig, ILogger logger)
+    public EmployeeRepositoryCommands(DbConfig.DbConfig dbConfig, ILogger<EmployeeRepositoryCommands> logger)
     {
-        _employee = employee;
-        _DbEmployee = dbEmployee;
         _dbConfig = dbConfig;
+        _DbEmployee = _dbConfig.Employee;
         _logger = logger;
     }
 

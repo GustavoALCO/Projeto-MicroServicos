@@ -1,8 +1,8 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "AuthUsers.WebApi",
-    "version": "1.0"
+    "title": "AuthProj",
+    "version": "v1"
   },
   "paths": {
     "/CreateEmployee": {
@@ -31,7 +31,7 @@
         },
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "Success"
           }
         }
       }
@@ -40,13 +40,6 @@
   "components": {
     "schemas": {
       "CreateEmployeeCommands": {
-        "required": [
-          "hashPassword",
-          "login",
-          "nome",
-          "position",
-          "surnames"
-        ],
         "type": "object",
         "properties": {
           "nome": {
@@ -80,6 +73,19 @@
         },
         "additionalProperties": false
       }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Entre com o JWT Bearer",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
     }
-  }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
 }

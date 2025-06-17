@@ -9,13 +9,18 @@ namespace AuthUsers.Aplication.Commands.Employee.Handlers;
 public class ChangeRoleEmployeeHandlers : IRequestHandler<ChangeRoleEmployeeCommands, Unit>
 {
 
-    private readonly ILogger _logger;
+    private readonly ILogger<ChangeRoleEmployeeHandlers> _logger;
 
     private readonly IEmployeeRepositoryCommands _commands;
 
     private readonly IEmployeeRepositoryQuery _query;
 
-    
+    public ChangeRoleEmployeeHandlers(IEmployeeRepositoryQuery query, IEmployeeRepositoryCommands commands, ILogger<ChangeRoleEmployeeHandlers> logger)
+    {
+        _query = query;
+        _commands = commands;
+        _logger = logger;
+    }
 
     public async Task<Unit> Handle(ChangeRoleEmployeeCommands request, CancellationToken cancellationToken)
     {

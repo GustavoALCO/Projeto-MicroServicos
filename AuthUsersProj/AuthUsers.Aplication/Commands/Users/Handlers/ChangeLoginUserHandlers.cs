@@ -8,7 +8,7 @@ namespace AuthUsers.Aplication.Commands.Users.Handlers;
 
 public class ChangeLoginUserHandlers : IRequestHandler<ChangeLoginUserCommands, Unit>
 {
-    private readonly ILogger _logger;
+    private readonly ILogger<ChangeLoginUserHandlers> _logger;
 
     private readonly IUserRepositoryCommands _commands;
 
@@ -16,7 +16,7 @@ public class ChangeLoginUserHandlers : IRequestHandler<ChangeLoginUserCommands, 
 
     private readonly IPasswordHasher _passwordHasher;
 
-    public ChangeLoginUserHandlers(IPasswordHasher passwordHasher, IUserRepositoryQuery query, IUserRepositoryCommands commands, ILogger logger)
+    public ChangeLoginUserHandlers(IPasswordHasher passwordHasher, IUserRepositoryQuery query, IUserRepositoryCommands commands, ILogger<ChangeLoginUserHandlers> logger)
     {
         _passwordHasher = passwordHasher;
         _query = query;

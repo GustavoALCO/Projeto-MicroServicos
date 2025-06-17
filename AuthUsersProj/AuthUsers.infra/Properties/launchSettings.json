@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "AuthUsers.infra": {
+      "commandName": "Project"
+    },
+    "Perfil 1": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.WebApi\\Dockerfile"
+    }
+  }
+}

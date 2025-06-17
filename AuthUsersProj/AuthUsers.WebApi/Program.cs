@@ -1,4 +1,5 @@
 using AuthUsers.Aplication.Settings;
+using AuthUsers.ioc.Dependency;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,15 +8,28 @@ builder.Services.Configure<JWTSettings>(builder.Configuration.GetSection("Jwt"))
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+
+builder.Services.AddMediator();
+
+builder.Services.AddSwagger();
+
+builder.Services.AddInterfacesServices();
+
+builder.Services.AddInterfaces();
+
+builder.Services.AddFluentValidate();
+
+builder.Services.AddInfra(builder.Configuration);
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "AuthProj v1");
+    });
 }
 
 app.UseHttpsRedirection();

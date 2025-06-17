@@ -57,9 +57,9 @@ public class JWTService : IJWTService
 
         var claims = new[]
         {
-                new Claim("login", email),
-                new Claim("nome", name),
-                new Claim("sobrenome", surname),
+                new Claim("Login", email),
+                new Claim("Nome", name),
+                new Claim("Sobrenome", surname),
             };
 
         var token = new JwtSecurityToken(

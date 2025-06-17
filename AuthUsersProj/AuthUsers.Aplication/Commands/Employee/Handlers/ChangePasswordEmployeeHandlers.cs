@@ -19,9 +19,9 @@ public class ChangePasswordEmployeeHandlers : IRequestHandler<ChangePasswordComm
 
     private readonly IValidator<ChangePasswordCommands> _validator;
 
-    private readonly ILogger _logger;
+    private readonly ILogger<ActivateEmployeeHandler> _logger;
 
-    public ChangePasswordEmployeeHandlers(IEmployeeRepositoryCommands command, IEmployeeRepositoryQuery query, IPasswordHasher passwordHasher, IValidator<ChangePasswordCommands> validator, ILogger logger)
+    public ChangePasswordEmployeeHandlers(IEmployeeRepositoryCommands command, IEmployeeRepositoryQuery query, IPasswordHasher passwordHasher, IValidator<ChangePasswordCommands> validator, ILogger<ActivateEmployeeHandler> logger)
     {
         _command = command;
         _query = query;

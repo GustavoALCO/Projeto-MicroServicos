@@ -123,3 +123,7 @@ C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.WebApi\bin\Debug\net8.0\Microso
 C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
 C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.WebApi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.WebApi\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

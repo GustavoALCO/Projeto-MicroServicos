@@ -7,14 +7,14 @@ namespace AuthUsers.Aplication.Commands.Users.Handlers;
 
 public class LoginUserHandlers : IRequestHandler<LoginUserCommands, string>
 {
-    private readonly ILogger _logger;
+    private readonly ILogger<LoginUserHandlers> _logger;
 
     private readonly IUserRepositoryQuery _query;
 
     private readonly IPasswordHasher _hasher;
 
     private readonly IJWTService _jwt;
-    public LoginUserHandlers(IUserRepositoryQuery query, ILogger logger, IPasswordHasher hasher, IJWTService jwt)
+    public LoginUserHandlers(IUserRepositoryQuery query, ILogger<LoginUserHandlers> logger, IPasswordHasher hasher, IJWTService jwt)
     {
         _query = query;
         _logger = logger;

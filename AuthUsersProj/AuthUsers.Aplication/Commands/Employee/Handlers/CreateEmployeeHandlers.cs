@@ -15,13 +15,13 @@ public class CreateEmployeeHandlers : IRequestHandler<CreateEmployeeCommands, Un
 
     private readonly IEmployeeRepositoryQuery _query;
 
-    private readonly ILogger _logger;
+    private readonly ILogger<CreateEmployeeHandlers> _logger;
 
     private IValidator<CreateEmployeeCommands> _validator;
 
     private IPasswordHasher _passwordHasher;
 
-    public CreateEmployeeHandlers(IEmployeeRepositoryCommands commands, IEmployeeRepositoryQuery query, ILogger logger, IValidator<CreateEmployeeCommands> validator, IPasswordHasher passwordHasher)
+    public CreateEmployeeHandlers(IEmployeeRepositoryCommands commands, IEmployeeRepositoryQuery query, ILogger<CreateEmployeeHandlers> logger, IValidator<CreateEmployeeCommands> validator, IPasswordHasher passwordHasher)
     {
         _commands = commands;
         _query = query;

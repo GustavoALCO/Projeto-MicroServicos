@@ -7,13 +7,13 @@ namespace AuthUsers.Aplication.Commands.Users.Handlers;
 
 public class ChangePhoneNumberHandlers : IRequestHandler<ChangePhoneNumberCommands, Unit>
 {
-    private readonly ILogger _logger;
+    private readonly ILogger<ChangePhoneNumberHandlers> _logger;
 
     private readonly IUserRepositoryCommands _commands;
 
     private readonly IUserRepositoryQuery _query;
 
-    public ChangePhoneNumberHandlers(IUserRepositoryQuery query, IUserRepositoryCommands commands, ILogger logger)
+    public ChangePhoneNumberHandlers(IUserRepositoryQuery query, IUserRepositoryCommands commands, ILogger<ChangePhoneNumberHandlers> logger)
     {
         _query = query;
         _commands = commands;

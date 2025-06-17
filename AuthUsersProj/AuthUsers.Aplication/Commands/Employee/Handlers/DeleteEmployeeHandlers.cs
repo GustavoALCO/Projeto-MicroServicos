@@ -11,9 +11,9 @@ public class DeleteEmployeeHandlers : IRequestHandler<DeleteEmployeeCommands, Un
 
     private readonly IEmployeeRepositoryQuery _query;
 
-    private ILogger _logger;
+    private ILogger<DeleteEmployeeHandlers> _logger;
 
-    public DeleteEmployeeHandlers(ILogger logger, IEmployeeRepositoryQuery query, IEmployeeRepositoryCommands commands)
+    public DeleteEmployeeHandlers(ILogger<DeleteEmployeeHandlers> logger, IEmployeeRepositoryQuery query, IEmployeeRepositoryCommands commands)
     {
         _logger = logger;
         _query = query;
