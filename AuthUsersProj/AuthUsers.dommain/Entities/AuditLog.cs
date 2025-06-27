@@ -7,6 +7,5 @@ public class AuditLog
     public required DateTimeOffset PerformedAt { get; set; }
     public string? ChangesJson { get; set; }
 
-
 }
 

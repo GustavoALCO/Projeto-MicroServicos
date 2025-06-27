@@ -7,13 +7,13 @@ namespace AuthUsers.infra.Repositories.Users;
 
 public class UsersRepositoryCommands : IUserRepositoryCommands
 {
-    private readonly DbConfig.DbConfig _dbConfig;
+    private readonly DbConfig.ContextDB _dbConfig;
 
     private readonly DbSet<domain.Entities.Users> _DBUsers;
 
     private readonly ILogger<UsersRepositoryCommands> _logger;
 
-    public UsersRepositoryCommands(DbConfig.DbConfig dbConfig,ILogger<UsersRepositoryCommands> logger)
+    public UsersRepositoryCommands(DbConfig.ContextDB dbConfig,ILogger<UsersRepositoryCommands> logger)
     {
         _dbConfig = dbConfig;
         _DBUsers = _dbConfig.Users;

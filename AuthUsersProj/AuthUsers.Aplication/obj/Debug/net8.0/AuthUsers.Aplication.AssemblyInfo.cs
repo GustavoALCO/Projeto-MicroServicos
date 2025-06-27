@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AuthUsers.Aplication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc749e6ed822c58c0e33bf2476af650516b0ddb5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8cb6fd1a9f080a6b34c842941b5d62954c52c6c")]
 [assembly: System.Reflection.AssemblyProductAttribute("AuthUsers.Aplication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AuthUsers.Aplication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

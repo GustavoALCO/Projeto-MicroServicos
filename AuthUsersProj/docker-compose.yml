@@ -20,6 +20,7 @@ services:
     ports:
       - "5432:5432"
     volumes:
+    #funciona para armazenar os dados no banco de dados mesmo que o container seja parado 
       - pgdata:/var/lib/postgresql/data
 
 volumes:

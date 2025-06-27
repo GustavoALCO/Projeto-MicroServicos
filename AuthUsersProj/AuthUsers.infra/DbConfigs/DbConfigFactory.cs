@@ -3,17 +3,17 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AuthUsers.infra.DbConfig;
 
-public class ContextDBFactory : IDesignTimeDbContextFactory<DbConfig>
+public class ContextDBFactory : IDesignTimeDbContextFactory<ContextDB>
 {
-    public DbConfig CreateDbContext(string[] args)
+    public ContextDB CreateDbContext(string[] args)
     {
 
-        var optionsBuilder = new DbContextOptionsBuilder<DbConfig>();
+        var optionsBuilder = new DbContextOptionsBuilder<ContextDB>();
 
 
         optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=authdb;Username=authuser;Password=Teste123");
 
-        return new DbConfig(optionsBuilder.Options);
+        return new ContextDB(optionsBuilder.Options);
     }
 }
 
