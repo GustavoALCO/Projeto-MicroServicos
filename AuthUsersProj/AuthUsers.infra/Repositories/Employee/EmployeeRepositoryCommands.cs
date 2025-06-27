@@ -9,13 +9,13 @@ namespace AuthUsers.infra.Repositories.Employee;
 
 public class EmployeeRepositoryCommands : IEmployeeRepositoryCommands
 {
-    private readonly DbConfig.DbConfig _dbConfig;
+    private readonly DbConfig.ContextDB _dbConfig;
 
     private readonly DbSet<domain.Entities.Employee> _DbEmployee;
 
     private readonly ILogger<EmployeeRepositoryCommands> _logger;
 
-    public EmployeeRepositoryCommands(DbConfig.DbConfig dbConfig, ILogger<EmployeeRepositoryCommands> logger)
+    public EmployeeRepositoryCommands(DbConfig.ContextDB dbConfig, ILogger<EmployeeRepositoryCommands> logger)
     {
         _dbConfig = dbConfig;
         _DbEmployee = _dbConfig.Employee;

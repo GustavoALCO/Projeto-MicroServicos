@@ -6,13 +6,13 @@ namespace AuthUsers.infra.Repositories.Employee;
 
 public class EmployeeRepositoryQuery : IEmployeeRepositoryQuery
 {
-    private readonly DbConfig.DbConfig _dbConfig;
+    private readonly DbConfig.ContextDB _dbConfig;
 
     private readonly DbSet<domain.Entities.Employee> _DbEmployee;
 
     private readonly ILogger<EmployeeRepositoryQuery> _logger;
 
-    public EmployeeRepositoryQuery(DbConfig.DbConfig dbConfig, ILogger<EmployeeRepositoryQuery> logger)
+    public EmployeeRepositoryQuery(DbConfig.ContextDB dbConfig, ILogger<EmployeeRepositoryQuery> logger)
     {
 
         _dbConfig = dbConfig;

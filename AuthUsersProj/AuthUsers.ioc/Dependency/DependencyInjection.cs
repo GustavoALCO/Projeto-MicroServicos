@@ -24,13 +24,13 @@ public static class DependencyInjection
 {
     public static IServiceCollection AddInfra(this IServiceCollection services, IConfiguration configuration)
     {
-        services.AddDbContext<DbConfig>(options =>
+        services.AddDbContext<ContextDB>(options =>
         {
             options.UseNpgsql(
                 "Host=localhost;Port=5432;Database=authdb;Username=authuser;Password=Teste123",
                 npgsqlOptions =>
                 {
-                    npgsqlOptions.MigrationsAssembly(typeof(DbConfig).Assembly.FullName);
+                    npgsqlOptions.MigrationsAssembly(typeof(ContextDB).Assembly.FullName);
                 });
         });
 

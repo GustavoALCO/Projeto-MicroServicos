@@ -23,5 +23,7 @@ public class Users
 
     public bool IsValid { get; set; }
 
+    public List<Adress> Adress { get; set; }
+
     public AuditLog AuditLog { get; set; }
 }

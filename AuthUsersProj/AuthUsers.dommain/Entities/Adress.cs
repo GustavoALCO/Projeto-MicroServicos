@@ -1,7 +1,14 @@
-﻿namespace AuthUsers.domain.Entities;
+﻿using System.ComponentModel.DataAnnotations;
 
-public abstract class Adress
+namespace AuthUsers.domain.Entities;
+
+public class Adress
 {
+    [Key]
+    public int Id { get; set; }
+
+    public Guid IdUser { get; set; }
+
     public required string HomeAdress { get; set; }
 
     public required int Number {  get; set; }
@@ -9,4 +16,6 @@ public abstract class Adress
     public string? Complement { get; set; }
 
     public required string Cep { get; set; }
+
+    public Users Users { get; set; }
 }

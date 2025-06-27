@@ -9,13 +9,13 @@ namespace AuthUsers.infra.Repositories.Users;
 public class UsersRepositoryQuery : IUserRepositoryQuery
 {
 
-    private readonly DbConfig.DbConfig _db;
+    private readonly DbConfig.ContextDB _db;
 
     private readonly DbSet<domain.Entities.Users> _dbusers;
 
     private readonly ILogger<UsersRepositoryQuery> _logger;
 
-    public UsersRepositoryQuery(DbConfig.DbConfig db, ILogger<UsersRepositoryQuery> logger)
+    public UsersRepositoryQuery(DbConfig.ContextDB db, ILogger<UsersRepositoryQuery> logger)
     {
         _db = db;
         _dbusers = _db.Users;

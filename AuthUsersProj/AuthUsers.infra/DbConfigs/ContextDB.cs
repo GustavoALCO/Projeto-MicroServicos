@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AuthUsers.infra.DbConfig;
 
-public class DbConfig : DbContext
+public class ContextDB : DbContext
 {
-    public DbConfig(DbContextOptions<DbConfig> options) : base(options)
+    public ContextDB(DbContextOptions<ContextDB> options) : base(options)
     {    
      }
 
@@ -16,6 +16,12 @@ public class DbConfig : DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Ignore<AuditLog>();
-        modelBuilder.Ignore<Adress>();
+
+        // Configurando Que Um Usuario Pode ter Varios Endereços
+        modelBuilder.Entity<Users>()
+            .HasMany(x => x.Adress)
+            .WithOne(x => x.Users)
+            .HasForeignKey(x => x.IdUser);
+            
     }
    }
