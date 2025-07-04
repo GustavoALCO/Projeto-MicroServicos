@@ -13,6 +13,8 @@ public class ContextDB : DbContext
 
     public DbSet<Users> Users { get; set; }
 
+    public DbSet<Adress> Adress { get; set; }
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Ignore<AuditLog>();

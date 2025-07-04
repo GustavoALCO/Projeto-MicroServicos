@@ -5,7 +5,7 @@
     "version": "v1"
   },
   "paths": {
-    "/CreateEmployee": {
+    "/Employee": {
       "post": {
         "tags": [
           "EmployeeControllers"
@@ -34,11 +34,346 @@
             "description": "Success"
           }
         }
+      },
+      "delete": {
+        "tags": [
+          "EmployeeControllers"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteEmployeeHandlers"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteEmployeeHandlers"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteEmployeeHandlers"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/ChangePassword": {
+      "patch": {
+        "tags": [
+          "EmployeeControllers"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChangePasswordCommands"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChangePasswordCommands"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChangePasswordCommands"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/ChangeRole": {
+      "patch": {
+        "tags": [
+          "EmployeeControllers"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChangeRoleEmployeeCommands"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChangeRoleEmployeeCommands"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChangeRoleEmployeeCommands"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Deactivate": {
+      "patch": {
+        "tags": [
+          "EmployeeControllers"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeactivateEmployeeCommands"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeactivateEmployeeCommands"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeactivateEmployeeCommands"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Activate": {
+      "patch": {
+        "tags": [
+          "EmployeeControllers"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActivateEmployeeCommands"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActivateEmployeeCommands"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActivateEmployeeCommands"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Login": {
+      "post": {
+        "tags": [
+          "EmployeeControllers"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginEmployeeCommands"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginEmployeeCommands"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginEmployeeCommands"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/BuscarTodos": {
+      "get": {
+        "tags": [
+          "EmployeeControllers"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetAllEmployeeQuery"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetAllEmployeeQuery"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetAllEmployeeQuery"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/BuscarTodosAdmin": {
+      "get": {
+        "tags": [
+          "EmployeeControllers"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetAllEmployeeAdminQuery"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetAllEmployeeAdminQuery"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetAllEmployeeAdminQuery"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/BuscarPorId": {
+      "get": {
+        "tags": [
+          "EmployeeControllers"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetEmployeeId"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetEmployeeId"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetEmployeeId"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
       }
     }
   },
   "components": {
     "schemas": {
+      "ActivateEmployeeCommands": {
+        "type": "object",
+        "properties": {
+          "idEmployee": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "updateById": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "json": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ChangePasswordCommands": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "updatebyId": {
+            "type": "string",
+            "format": "uuid"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ChangeRoleEmployeeCommands": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "role": {
+            "type": "string",
+            "nullable": true
+          },
+          "updatebyId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "json": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "CreateEmployeeCommands": {
         "type": "object",
         "properties": {
@@ -47,10 +382,6 @@
             "nullable": true
           },
           "surnames": {
-            "type": "string",
-            "nullable": true
-          },
-          "login": {
             "type": "string",
             "nullable": true
           },
@@ -67,6 +398,72 @@
             "format": "uuid"
           },
           "json": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DeactivateEmployeeCommands": {
+        "type": "object",
+        "properties": {
+          "idEmployee": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "updateById": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "json": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DeleteEmployeeHandlers": {
+        "type": "object",
+        "additionalProperties": false
+      },
+      "GetAllEmployeeAdminQuery": {
+        "type": "object",
+        "properties": {
+          "page": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetAllEmployeeQuery": {
+        "type": "object",
+        "properties": {
+          "page": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetEmployeeId": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginEmployeeCommands": {
+        "type": "object",
+        "properties": {
+          "login": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
             "type": "string",
             "nullable": true
           }

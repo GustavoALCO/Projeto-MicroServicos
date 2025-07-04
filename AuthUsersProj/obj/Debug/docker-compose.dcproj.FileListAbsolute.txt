@@ -42,4 +42,6 @@ C:\Projeto-MicroServicos\AuthUsersProj\bin\Debug\Microsoft.Extensions.Caching.Me
 C:\Projeto-MicroServicos\AuthUsersProj\bin\Debug\AuthUsers.ioc.pdb
 C:\Projeto-MicroServicos\AuthUsersProj\bin\Debug\AuthUsers.infra.pdb
 C:\Projeto-MicroServicos\AuthUsersProj\bin\Debug\FluentValidation.DependencyInjectionExtensions.dll
-C:\Projeto-MicroServicos\AuthUsersProj\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Projeto-MicroServicos\AuthUsersProj\bin\Debug\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Projeto-MicroServicos\AuthUsersProj\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Projeto-MicroServicos\AuthUsersProj\bin\Debug\Microsoft.IdentityModel.Protocols.dll

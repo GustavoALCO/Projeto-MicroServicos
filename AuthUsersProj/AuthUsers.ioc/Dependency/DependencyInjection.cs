@@ -3,11 +3,14 @@ using AuthUsers.Aplication.Commands.Employee;
 using AuthUsers.Aplication.Commands.Users;
 using AuthUsers.Aplication.Interfaces;
 using AuthUsers.Aplication.Services;
+using AuthUsers.Aplication.Settings;
 using AuthUsers.Aplication.Validator;
 using AuthUsers.Aplication.Validator.Employee;
 using AuthUsers.Aplication.Validator.Users;
+using AuthUsers.domain.Interfaces.Adress;
 using AuthUsers.domain.Interfaces.Users;
 using AuthUsers.infra.DbConfig;
+using AuthUsers.infra.Repositories.Adress;
 using AuthUsers.infra.Repositories.Employee;
 using AuthUsers.infra.Repositories.Users;
 using FluentValidation;
@@ -15,19 +18,24 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
+using System.Text;
 
 namespace AuthUsers.ioc.Dependency;
 
 public static class DependencyInjection
 {
+
     public static IServiceCollection AddInfra(this IServiceCollection services, IConfiguration configuration)
     {
         services.AddDbContext<ContextDB>(options =>
         {
             options.UseNpgsql(
-                "Host=localhost;Port=5432;Database=authdb;Username=authuser;Password=Teste123",
+
+                "Host=postgres-db;Port=5432;Database=authdb;Username=authuser;Password=Teste123",
                 npgsqlOptions =>
                 {
                     npgsqlOptions.MigrationsAssembly(typeof(ContextDB).Assembly.FullName);
@@ -60,6 +68,10 @@ public static class DependencyInjection
         //Mapeando as Interfaces dos Usuarios
         services.AddScoped<IUserRepositoryCommands, UsersRepositoryCommands>();
         services.AddScoped<IUserRepositoryQuery, UsersRepositoryQuery>();
+
+        //Mapeando as Interfaces dos Endereços
+        services.AddScoped<IAdressRepositoryQuery, AdressRepositoryQuery>();
+        services.AddScoped<IAdressRepositoryCommands, AdressRepositoryCommands>();
 
         return services;
     }
@@ -121,4 +133,36 @@ public static class DependencyInjection
         return services;
     }
 
+    public static IServiceCollection Authentication(this IServiceCollection services, IConfiguration configuration)
+    {
+        var jwtSection = configuration.GetSection("Jwt");
+        var jwtSettings = jwtSection.Get<JWTSettings>();
+
+        services.Configure<JWTSettings>(jwtSection); // Disponibiliza o IOptions<JWTSettings> para injeção
+
+        services.AddAuthentication(options =>
+        {
+            options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+            options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+        })
+        .AddJwtBearer(options =>
+        {
+            options.TokenValidationParameters = new TokenValidationParameters
+            {
+                ValidateIssuer = true,
+                ValidIssuer = jwtSettings.Issuer,
+
+                ValidateAudience = true,
+                ValidAudiences = jwtSettings.Audience, // <- aceita múltiplas audiências
+
+                ValidateLifetime = true,
+                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings.Key)),
+                ValidateIssuerSigningKey = true,
+
+                RoleClaimType = "Role" // usa o claim "Role" no token
+            };
+        });
+
+        return services;
+    }
 }

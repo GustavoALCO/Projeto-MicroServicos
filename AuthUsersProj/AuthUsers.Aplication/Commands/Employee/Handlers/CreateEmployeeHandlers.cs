@@ -46,26 +46,25 @@ public class CreateEmployeeHandlers : IRequestHandler<CreateEmployeeCommands, Un
 
 
         //Monta o login do usuario
-        string createlogin = $"{request.Nome}.{request.Surnames
-                                                       .Replace(" ", "")
-                                                       }";
+        string createlogin = $"{request.Nome}.{request.Surnames.Replace(" ", "")}";
 
         //Busca no banco de dados se Exite ja algum funcionario com o mesmo login
-         var existingLogins = await _query.GetEmployeesLoginAsync(createlogin);
+        var existingLogins = await _query.GetEmployeesLoginAsync(createlogin);
 
         //Se caso Tiver ja um com o mesmologin ele entra no If 
-        if (existingLogins.Any() )
+        if (existingLogins.Any())
         {
             //Buscar os numeros dos funcionarios existentes 
             var numbers = existingLogins
             .Select(l =>
-                        {
-                            //Busca a quantidade de caracteres que possui os loguins 
-                            var suffix = l.Login.Substring(createlogin.Length);
-                            //retorna os numeros ou 0 se nao possuir
-                            return int.TryParse(suffix, out int n) ? n : 0;
-                        })
+            {
+                //Busca a quantidade de caracteres que possui os loguins 
+                var suffix = l.Login.Substring(createlogin.Length);
+                //retorna os numeros ou 0 se nao possuir
+                return int.TryParse(suffix, out int n) ? n : 0;
+            })
             .ToList();
+
             //passa apenas o numero maior para maxNumber
             int maxNumber = numbers.Max();
 
@@ -102,5 +101,4 @@ public class CreateEmployeeHandlers : IRequestHandler<CreateEmployeeCommands, Un
 
         return Unit.Value;
     }
-
 }
