@@ -21,6 +21,8 @@ builder.Services.AddFluentValidate();
 
 builder.Services.AddInfra(builder.Configuration);
 
+builder.Services.Authentication(builder.Configuration);
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
@@ -33,6 +35,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

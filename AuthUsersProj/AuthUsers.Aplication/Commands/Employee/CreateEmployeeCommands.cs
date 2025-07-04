@@ -8,8 +8,6 @@ public class CreateEmployeeCommands : IRequest<Unit>
 
     public required string Surnames { get; set; }
 
-    public required string Login { get; set; }
-
     public required string HashPassword { get; set; }
 
     public required string Position { get; set; }

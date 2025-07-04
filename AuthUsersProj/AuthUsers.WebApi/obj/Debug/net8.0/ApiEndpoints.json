@@ -1,8 +1,120 @@
 [
   {
     "ContainingType": "AuthUsers.WebApi.Controllers.EmployeeControllers",
+    "Method": "ActivateEmployee",
+    "RelativePath": "Activate",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "activateEmployee",
+        "Type": "AuthUsers.Aplication.Commands.Employee.ActivateEmployeeCommands",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuthUsers.WebApi.Controllers.EmployeeControllers",
+    "Method": "BuscarPorId",
+    "RelativePath": "BuscarPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "GetEmployee",
+        "Type": "AuthUsers.Aplication.Query.Employee.GetEmployeeId",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuthUsers.WebApi.Controllers.EmployeeControllers",
+    "Method": "BuscarTodos",
+    "RelativePath": "BuscarTodos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "getall",
+        "Type": "AuthUsers.Aplication.Query.Employee.GetAllEmployeeQuery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuthUsers.WebApi.Controllers.EmployeeControllers",
+    "Method": "BuscarTodosAdmin",
+    "RelativePath": "BuscarTodosAdmin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "GetAllAdmin",
+        "Type": "AuthUsers.Aplication.Query.Employee.GetAllEmployeeAdminQuery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuthUsers.WebApi.Controllers.EmployeeControllers",
+    "Method": "ChangePassword",
+    "RelativePath": "ChangePassword",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "changePasswordCommands",
+        "Type": "AuthUsers.Aplication.Commands.Employee.ChangePasswordCommands",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuthUsers.WebApi.Controllers.EmployeeControllers",
+    "Method": "PatchChangeRole",
+    "RelativePath": "ChangeRole",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "changeRoleEmployee",
+        "Type": "AuthUsers.Aplication.Commands.Employee.ChangeRoleEmployeeCommands",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuthUsers.WebApi.Controllers.EmployeeControllers",
+    "Method": "DeactivateEmployee",
+    "RelativePath": "Deactivate",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deactivateEmployee",
+        "Type": "AuthUsers.Aplication.Commands.Employee.DeactivateEmployeeCommands",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuthUsers.WebApi.Controllers.EmployeeControllers",
     "Method": "PostEmployee",
-    "RelativePath": "CreateEmployee",
+    "RelativePath": "Employee",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -10,6 +122,38 @@
       {
         "Name": "createEmployee",
         "Type": "AuthUsers.Aplication.Commands.Employee.CreateEmployeeCommands",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuthUsers.WebApi.Controllers.EmployeeControllers",
+    "Method": "DeleteEmployee",
+    "RelativePath": "Employee",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deleteEmployeeHandlers",
+        "Type": "AuthUsers.Aplication.Commands.Employee.Handlers.DeleteEmployeeHandlers",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuthUsers.WebApi.Controllers.EmployeeControllers",
+    "Method": "LoginEmployee",
+    "RelativePath": "Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "AuthUsers.Aplication.Commands.Employee.LoginEmployeeCommands",
         "IsRequired": true
       }
     ],
