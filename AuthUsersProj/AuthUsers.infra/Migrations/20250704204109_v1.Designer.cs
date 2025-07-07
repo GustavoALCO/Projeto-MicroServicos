@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace AuthUsers.infra.Migrations
 {
     [DbContext(typeof(ContextDB))]
-    [Migration("20250626163724_v")]
-    partial class v
+    [Migration("20250704204109_v1")]
+    partial class v1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -55,6 +55,38 @@ namespace AuthUsers.infra.Migrations
                     b.HasIndex("IdUser");
 
                     b.ToTable("Adress");
+                });
+
+            modelBuilder.Entity("AuthUsers.domain.Entities.AuditLog", b =>
+                {
+                    b.Property<Guid>("IdLog")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Action")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("ChangesJson")
+                        .HasColumnType("text");
+
+                    b.Property<DateTimeOffset>("DateLog")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("PerformeBy")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<Guid>("RecordId")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("TableName")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("IdLog");
+
+                    b.ToTable("AuditLog");
                 });
 
             modelBuilder.Entity("AuthUsers.domain.Entities.Employee", b =>

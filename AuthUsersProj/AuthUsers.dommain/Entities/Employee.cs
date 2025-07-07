@@ -19,5 +19,4 @@ public class Employee
 
     public required bool IsActive { get; set; }
 
-    public List<AuditLog>? Audits { get; set; }
 }

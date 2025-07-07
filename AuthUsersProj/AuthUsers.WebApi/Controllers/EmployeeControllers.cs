@@ -1,15 +1,14 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.Text;
 using AuthUsers.Aplication.Commands.Employee;
 using AuthUsers.Aplication.Commands.Employee.Handlers;
 using AuthUsers.Aplication.Query.Employee;
-using AuthUsers.domain.Entities;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AuthUsers.WebApi.Controllers;
 
+[Route("api/[controller]")]
 public class EmployeeControllers : ControllerBase
 {
     private readonly IMediator _mediator;
@@ -22,20 +21,12 @@ public class EmployeeControllers : ControllerBase
         _logger = logger;
     }
 
+    
+
     [Authorize(Roles = "Admin")]
     [HttpPost("Employee")]
     public async Task<IActionResult> PostEmployee([FromBody] CreateEmployeeCommands createEmployee)
     {
-        // Habilita o buffering para permitir múltiplas leituras do corpo da requisição
-        HttpContext.Request.EnableBuffering();
-
-        // Lê o corpo da requisição
-        HttpContext.Request.Body.Position = 0;
-        using var reader = new StreamReader(HttpContext.Request.Body, Encoding.UTF8, detectEncodingFromByteOrderMarks: false, leaveOpen: true);
-        var rawJson = await reader.ReadToEndAsync();
-        HttpContext.Request.Body.Position = 0; // Resetar a posição do stream
-
-        createEmployee.json = rawJson;
         try
         {
             // Chamar o MediatR 
@@ -163,7 +154,7 @@ public class EmployeeControllers : ControllerBase
         }
     }
 
-    [HttpPost("Login")]
+    [HttpPost("LoginEmployee")]
     public async Task<IActionResult> LoginEmployee([FromBody] LoginEmployeeCommands login)
     {
         try
@@ -183,8 +174,8 @@ public class EmployeeControllers : ControllerBase
     }
 
     [Authorize]
-    [HttpGet("BuscarTodos")]
-    public async Task<IActionResult> BuscarTodos([FromBody] GetAllEmployeeQuery getall)
+    [HttpGet("BuscarTodosEmployee")]
+    public async Task<IActionResult> BuscarTodos([FromQuery] GetAllEmployeeQuery getall)
     {
         try
         {
@@ -204,7 +195,7 @@ public class EmployeeControllers : ControllerBase
 
     [Authorize(Roles = "Admin")]
     [HttpGet("BuscarTodosAdmin")]
-    public async Task<IActionResult> BuscarTodosAdmin([FromBody] GetAllEmployeeAdminQuery GetAllAdmin)
+    public async Task<IActionResult> BuscarTodosAdmin([FromQuery] GetAllEmployeeAdminQuery GetAllAdmin)
     {
         try
         {
@@ -225,7 +216,7 @@ public class EmployeeControllers : ControllerBase
 
     [Authorize(Roles = "Admin,Manager")]
     [HttpGet("BuscarPorId")]
-    public async Task<IActionResult> BuscarPorId([FromBody] GetEmployeeId GetEmployee)
+    public async Task<IActionResult> BuscarPorId([FromQuery] GetEmployeeId GetEmployee)
     {
         try
         {

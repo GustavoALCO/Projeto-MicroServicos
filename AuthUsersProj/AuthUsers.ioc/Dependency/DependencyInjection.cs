@@ -8,9 +8,11 @@ using AuthUsers.Aplication.Validator;
 using AuthUsers.Aplication.Validator.Employee;
 using AuthUsers.Aplication.Validator.Users;
 using AuthUsers.domain.Interfaces.Adress;
+using AuthUsers.domain.Interfaces.AuditLogs;
 using AuthUsers.domain.Interfaces.Users;
 using AuthUsers.infra.DbConfig;
 using AuthUsers.infra.Repositories.Adress;
+using AuthUsers.infra.Repositories.AuditLogs;
 using AuthUsers.infra.Repositories.Employee;
 using AuthUsers.infra.Repositories.Users;
 using FluentValidation;
@@ -72,6 +74,10 @@ public static class DependencyInjection
         //Mapeando as Interfaces dos Endereços
         services.AddScoped<IAdressRepositoryQuery, AdressRepositoryQuery>();
         services.AddScoped<IAdressRepositoryCommands, AdressRepositoryCommands>();
+
+        //Mapeando as Interfaces dos Logs de Auditoria
+        services.AddScoped<IAuditlogsRepositoryCommands, AuditLogsRepositoryCommands>();
+        services.AddScoped<IAuditLogRepositoryQuery, AuditLogsRepositoryQuery>();
 
         return services;
     }

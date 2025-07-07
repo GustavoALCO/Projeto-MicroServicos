@@ -1,8 +1,10 @@
 ﻿using AuthEmployees.domain.Interfaces.Employee;
 using AuthUsers.Aplication.Commands.Employee;
 using AuthUsers.domain.Entities;
+using AuthUsers.domain.Interfaces.AuditLogs;
 using MediatR;
 using Microsoft.Extensions.Logging;
+using System.Text.Json;
 
 namespace AuthUsers.Aplication.Commands.Employee.Handlers;
 
@@ -13,13 +15,16 @@ public class ChangeRoleEmployeeHandlers : IRequestHandler<ChangeRoleEmployeeComm
 
     private readonly IEmployeeRepositoryCommands _commands;
 
+    private readonly IAuditlogsRepositoryCommands _commandsLog;
+
     private readonly IEmployeeRepositoryQuery _query;
 
-    public ChangeRoleEmployeeHandlers(IEmployeeRepositoryQuery query, IEmployeeRepositoryCommands commands, ILogger<ChangeRoleEmployeeHandlers> logger)
+    public ChangeRoleEmployeeHandlers(IEmployeeRepositoryQuery query, IEmployeeRepositoryCommands commands, ILogger<ChangeRoleEmployeeHandlers> logger, IAuditlogsRepositoryCommands commandsLog)
     {
         _query = query;
         _commands = commands;
         _logger = logger;
+        _commandsLog = commandsLog;
     }
 
     public async Task<Unit> Handle(ChangeRoleEmployeeCommands request, CancellationToken cancellationToken)
@@ -31,15 +36,20 @@ public class ChangeRoleEmployeeHandlers : IRequestHandler<ChangeRoleEmployeeComm
 
         employee.Position = request.Role;
 
-        employee.Audits.Add(new AuditLog
+        var log = new AuditLog
         {
-            Id = request.UpdatebyId,
-            Action = "ChangeRole",
-            PerformedAt = DateTimeOffset.UtcNow.ToOffset(TimeSpan.FromHours(-3)),
-            ChangesJson = request.json
-        });
+            IdLog = Guid.NewGuid(),
+            TableName = "Employee",
+            RecordId = employee.IdEmployee,
+            Action = "Path",
+            DateLog = DateTimeOffset.UtcNow, // Ajuste para o fuso horário de Brasília
+            PerformeBy = $"{request.UpdatebyId} | {employee.Nome} {employee.Surnames}",
+            ChangesJson = JsonSerializer.Serialize(request)
+        };
 
         await _commands.UpdateEmployeeProfile(employee);
+
+        await _commandsLog.CreateAuditLog(log);
 
         return Unit.Value;
     }

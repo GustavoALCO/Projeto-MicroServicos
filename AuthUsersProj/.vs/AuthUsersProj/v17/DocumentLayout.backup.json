@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Projeto-MicroServicos\\AuthUsersProj\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A0751585-321D-4500-81D0-1C3FD474A119}|AuthUsers.Aplication\\AuthUsers.Aplication.csproj|c:\\projeto-microservicos\\authusersproj\\authusers.aplication\\commands\\users\\handlers\\createusershandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0751585-321D-4500-81D0-1C3FD474A119}|AuthUsers.Aplication\\AuthUsers.Aplication.csproj|solutionrelative:authusers.aplication\\commands\\users\\handlers\\createusershandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0751585-321D-4500-81D0-1C3FD474A119}|AuthUsers.Aplication\\AuthUsers.Aplication.csproj|c:\\projeto-microservicos\\authusersproj\\authusers.aplication\\commands\\employee\\handlers\\createemployeehandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0751585-321D-4500-81D0-1C3FD474A119}|AuthUsers.Aplication\\AuthUsers.Aplication.csproj|solutionrelative:authusers.aplication\\commands\\employee\\handlers\\createemployeehandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0751585-321D-4500-81D0-1C3FD474A119}|AuthUsers.Aplication\\AuthUsers.Aplication.csproj|c:\\projeto-microservicos\\authusersproj\\authusers.aplication\\commands\\users\\createuserscommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0751585-321D-4500-81D0-1C3FD474A119}|AuthUsers.Aplication\\AuthUsers.Aplication.csproj|solutionrelative:authusers.aplication\\commands\\users\\createuserscommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F75AF7-5838-4218-A367-C4297593DBA9}|AuthUsers.WebApi\\AuthUsers.WebApi.csproj|c:\\projeto-microservicos\\authusersproj\\authusers.webapi\\controllers\\adresscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F75AF7-5838-4218-A367-C4297593DBA9}|AuthUsers.WebApi\\AuthUsers.WebApi.csproj|solutionrelative:authusers.webapi\\controllers\\adresscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C8F75AF7-5838-4218-A367-C4297593DBA9}|AuthUsers.WebApi\\AuthUsers.WebApi.csproj|c:\\projeto-microservicos\\authusersproj\\authusers.webapi\\controllers\\employeecontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8F75AF7-5838-4218-A367-C4297593DBA9}|AuthUsers.WebApi\\AuthUsers.WebApi.csproj|solutionrelative:authusers.webapi\\controllers\\employeecontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8F75AF7-5838-4218-A367-C4297593DBA9}|AuthUsers.WebApi\\AuthUsers.WebApi.csproj|c:\\projeto-microservicos\\authusersproj\\authusers.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8F75AF7-5838-4218-A367-C4297593DBA9}|AuthUsers.WebApi\\AuthUsers.WebApi.csproj|solutionrelative:authusers.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D5ED639-33E4-453C-9B7A-6727A735AF29}|AuthUsers.ioc\\AuthUsers.ioc.csproj|c:\\projeto-microservicos\\authusersproj\\authusers.ioc\\dependency\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D5ED639-33E4-453C-9B7A-6727A735AF29}|AuthUsers.ioc\\AuthUsers.ioc.csproj|solutionrelative:authusers.ioc\\dependency\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8F75AF7-5838-4218-A367-C4297593DBA9}|AuthUsers.WebApi\\AuthUsers.WebApi.csproj|c:\\projeto-microservicos\\authusersproj\\authusers.webapi\\controllers\\userscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F75AF7-5838-4218-A367-C4297593DBA9}|AuthUsers.WebApi\\AuthUsers.WebApi.csproj|solutionrelative:authusers.webapi\\controllers\\userscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,41 +42,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.ioc\\Dependency\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "AuthUsers.ioc\\Dependency\\DependencyInjection.cs",
-              "ToolTip": "C:\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.ioc\\Dependency\\DependencyInjection.cs",
-              "RelativeToolTip": "AuthUsers.ioc\\Dependency\\DependencyInjection.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAuwKMAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T19:32:00.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "AuthUsers.WebApi\\Program.cs",
-              "ToolTip": "C:\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.WebApi\\Program.cs",
-              "RelativeToolTip": "AuthUsers.WebApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA1AAAAAAAAAA==",
+              "Title": "CreateEmployeeHandlers.cs",
+              "DocumentMoniker": "C:\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.Aplication\\Commands\\Employee\\Handlers\\CreateEmployeeHandlers.cs",
+              "RelativeDocumentMoniker": "AuthUsers.Aplication\\Commands\\Employee\\Handlers\\CreateEmployeeHandlers.cs",
+              "ToolTip": "C:\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.Aplication\\Commands\\Employee\\Handlers\\CreateEmployeeHandlers.cs",
+              "RelativeToolTip": "AuthUsers.Aplication\\Commands\\Employee\\Handlers\\CreateEmployeeHandlers.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T19:29:28.363Z",
+              "WhenOpened": "2025-07-07T18:10:05.639Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CreateUsersHandlers.cs",
+              "DocumentMoniker": "C:\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.Aplication\\Commands\\Users\\Handlers\\CreateUsersHandlers.cs",
+              "RelativeDocumentMoniker": "AuthUsers.Aplication\\Commands\\Users\\Handlers\\CreateUsersHandlers.cs",
+              "ToolTip": "C:\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.Aplication\\Commands\\Users\\Handlers\\CreateUsersHandlers.cs",
+              "RelativeToolTip": "AuthUsers.Aplication\\Commands\\Users\\Handlers\\CreateUsersHandlers.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwB8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T18:08:44.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateUsersCommands.cs",
+              "DocumentMoniker": "C:\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.Aplication\\Commands\\Users\\CreateUsersCommands.cs",
+              "RelativeDocumentMoniker": "AuthUsers.Aplication\\Commands\\Users\\CreateUsersCommands.cs",
+              "ToolTip": "C:\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.Aplication\\Commands\\Users\\CreateUsersCommands.cs",
+              "RelativeToolTip": "AuthUsers.Aplication\\Commands\\Users\\CreateUsersCommands.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T18:08:37.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdressControllers.cs",
+              "DocumentMoniker": "C:\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.WebApi\\Controllers\\AdressControllers.cs",
+              "RelativeDocumentMoniker": "AuthUsers.WebApi\\Controllers\\AdressControllers.cs",
+              "ToolTip": "C:\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.WebApi\\Controllers\\AdressControllers.cs",
+              "RelativeToolTip": "AuthUsers.WebApi\\Controllers\\AdressControllers.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T18:05:00.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "EmployeeControllers.cs",
               "DocumentMoniker": "C:\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.WebApi\\Controllers\\EmployeeControllers.cs",
               "RelativeDocumentMoniker": "AuthUsers.WebApi\\Controllers\\EmployeeControllers.cs",
               "ToolTip": "C:\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.WebApi\\Controllers\\EmployeeControllers.cs",
               "RelativeToolTip": "AuthUsers.WebApi\\Controllers\\EmployeeControllers.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAkwKMAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T16:16:31.589Z",
+              "WhenOpened": "2025-07-07T18:04:59.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsersControllers.cs",
+              "DocumentMoniker": "C:\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.WebApi\\Controllers\\UsersControllers.cs",
+              "RelativeDocumentMoniker": "AuthUsers.WebApi\\Controllers\\UsersControllers.cs",
+              "ToolTip": "C:\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.WebApi\\Controllers\\UsersControllers.cs",
+              "RelativeToolTip": "AuthUsers.WebApi\\Controllers\\UsersControllers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T18:04:57.749Z",
               "EditorCaption": ""
             }
           ]

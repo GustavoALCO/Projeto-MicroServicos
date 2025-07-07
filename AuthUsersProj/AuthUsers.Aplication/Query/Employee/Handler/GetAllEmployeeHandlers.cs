@@ -29,7 +29,7 @@ public class GetAllEmployeeHandlers : IRequestHandler<GetAllEmployeeQuery, IEnum
         page = page * 10;
 
         //Busca todos os funcionários, caso não tenha nenhum funcionário cadastrado retorna null
-        var employee = await _query.GetAllEmployeesAsync(request.Page);
+        var employee = await _query.GetAllEmployeesAsync(page);
 
         if (employee == null || !employee.Any())
         {

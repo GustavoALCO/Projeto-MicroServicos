@@ -15,15 +15,15 @@ public class ContextDB : DbContext
 
     public DbSet<Adress> Adress { get; set; }
 
+    public DbSet<AuditLog> AuditLog { get; set; }
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Ignore<AuditLog>();
 
         // Configurando Que Um Usuario Pode ter Varios Endereços
         modelBuilder.Entity<Users>()
             .HasMany(x => x.Adress)
             .WithOne(x => x.Users)
             .HasForeignKey(x => x.IdUser);
-            
     }
    }

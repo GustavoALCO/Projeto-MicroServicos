@@ -16,5 +16,5 @@ public class EmployeeAdminDTO
 
     public bool IsActive { get; set; }
 
-    public List<AuditLog> Audits { get; set; }
+    public IEnumerable<AuditLog> Audits { get; set; }
 }

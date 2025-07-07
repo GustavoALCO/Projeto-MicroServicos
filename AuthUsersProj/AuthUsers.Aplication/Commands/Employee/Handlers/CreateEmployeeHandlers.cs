@@ -1,11 +1,11 @@
 ﻿using AuthEmployees.domain.Interfaces.Employee;
-using AuthUsers.Aplication.Commands.Employee;
 using AuthUsers.Aplication.Interfaces;
-using AuthUsers.Aplication.Validator.Employee;
 using AuthUsers.domain.Entities;
+using AuthUsers.domain.Interfaces.AuditLogs;
 using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.Logging;
+using System.Text.Json;
 
 namespace AuthUsers.Aplication.Commands.Employee.Handlers;
 
@@ -15,19 +15,22 @@ public class CreateEmployeeHandlers : IRequestHandler<CreateEmployeeCommands, Un
 
     private readonly IEmployeeRepositoryQuery _query;
 
+    private readonly IAuditlogsRepositoryCommands _commandsLog;
+
     private readonly ILogger<CreateEmployeeHandlers> _logger;
 
     private IValidator<CreateEmployeeCommands> _validator;
 
     private IPasswordHasher _passwordHasher;
 
-    public CreateEmployeeHandlers(IEmployeeRepositoryCommands commands, IEmployeeRepositoryQuery query, ILogger<CreateEmployeeHandlers> logger, IValidator<CreateEmployeeCommands> validator, IPasswordHasher passwordHasher)
+    public CreateEmployeeHandlers(IEmployeeRepositoryCommands commands, IEmployeeRepositoryQuery query, ILogger<CreateEmployeeHandlers> logger, IValidator<CreateEmployeeCommands> validator, IPasswordHasher passwordHasher, IAuditlogsRepositoryCommands commandsLog)
     {
         _commands = commands;
         _query = query;
         _logger = logger;
         _validator = validator;
         _passwordHasher = passwordHasher;
+        _commandsLog = commandsLog;
     }
 
     public async Task<Unit> Handle(CreateEmployeeCommands request, CancellationToken cancellationToken)
@@ -81,24 +84,36 @@ public class CreateEmployeeHandlers : IRequestHandler<CreateEmployeeCommands, Un
             Login = createlogin,
             HashPassword = request.HashPassword,
             IsActive = true,
-            Position = request.Position,
-            Audits = new List<AuditLog>
-            {
-                new AuditLog
-                {
-                    Id = request.CreateById,
-                    Action = "Create",
-                    PerformedAt = DateTimeOffset.UtcNow.ToOffset(TimeSpan.FromHours(-3)),
-                    ChangesJson = request.json
-                }
-            }
+            Position = request.Position
+        };
+
+        var adminUser = await _query.GetEmployeeIdAsync(request.CreateById);
+
+        if (adminUser == null)
+        {
+            _logger.LogWarning("Usuário administrador não encontrado: {CreateById}", request.CreateById);
+            throw new Exception("Usuário administrador não encontrado");
+        }
+
+        var log = new AuditLog
+        {
+            IdLog = Guid.NewGuid(),
+            TableName = "Employee",
+            RecordId = user.IdEmployee,
+            Action = "Create",
+            DateLog = DateTimeOffset.UtcNow,
+            PerformeBy = $"{request.CreateById} | {adminUser.Nome} {adminUser.Surnames}",
+            ChangesJson = "Não Disponivel pela Ação do Endpoint"
         };
 
         user.HashPassword = _passwordHasher.CreateHash(user, request.HashPassword);
 
+        //chama a interface para criar o log de auditoria
+        await _commandsLog.CreateAuditLog(log);
+
         //Chama a Interface para adicionar o funcionario no banco de dados
         await _commands.CreateEmployeeAsync(user);
-
+      
         return Unit.Value;
     }
 }

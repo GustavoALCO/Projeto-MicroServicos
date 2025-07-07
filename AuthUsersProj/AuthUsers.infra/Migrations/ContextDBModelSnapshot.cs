@@ -54,6 +54,38 @@ namespace AuthUsers.infra.Migrations
                     b.ToTable("Adress");
                 });
 
+            modelBuilder.Entity("AuthUsers.domain.Entities.AuditLog", b =>
+                {
+                    b.Property<Guid>("IdLog")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Action")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("ChangesJson")
+                        .HasColumnType("text");
+
+                    b.Property<DateTimeOffset>("DateLog")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("PerformeBy")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<Guid>("RecordId")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("TableName")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("IdLog");
+
+                    b.ToTable("AuditLog");
+                });
+
             modelBuilder.Entity("AuthUsers.domain.Entities.Employee", b =>
                 {
                     b.Property<Guid>("IdEmployee")

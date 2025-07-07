@@ -2,9 +2,11 @@
 using AuthUsers.Aplication.Commands.Employee;
 using AuthUsers.Aplication.Interfaces;
 using AuthUsers.domain.Entities;
+using AuthUsers.domain.Interfaces.AuditLogs;
 using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.Logging;
+using System.Text.Json;
 
 namespace AuthUsers.Aplication.Commands.Employee.Handlers;
 
@@ -17,22 +19,25 @@ public class ChangePasswordEmployeeHandlers : IRequestHandler<ChangePasswordComm
 
     private readonly IEmployeeRepositoryCommands _command;
 
+    private readonly IAuditlogsRepositoryCommands _commandsLogs;
+
     private readonly IValidator<ChangePasswordCommands> _validator;
 
     private readonly ILogger<ActivateEmployeeHandler> _logger;
 
-    public ChangePasswordEmployeeHandlers(IEmployeeRepositoryCommands command, IEmployeeRepositoryQuery query, IPasswordHasher passwordHasher, IValidator<ChangePasswordCommands> validator, ILogger<ActivateEmployeeHandler> logger)
+    public ChangePasswordEmployeeHandlers(IEmployeeRepositoryCommands command, IEmployeeRepositoryQuery query, IPasswordHasher passwordHasher, IValidator<ChangePasswordCommands> validator, ILogger<ActivateEmployeeHandler> logger, IAuditlogsRepositoryCommands commandsLogs)
     {
         _command = command;
         _query = query;
         _passwordHasher = passwordHasher;
         _validator = validator;
         _logger = logger;
+        _commandsLogs = commandsLogs;
     }
 
     public async Task<Unit> Handle(ChangePasswordCommands request, CancellationToken cancellationToken)
     {
-        //Atribui os valores do requst para o Validator para fazer uma validacao
+        //Atribui os valores do request para o Validator para fazer uma validacao
         var validation = _validator.Validate(request);
         if (!validation.IsValid)
         {   //se nao for valido coleta os erros do Fluent Validation
@@ -53,16 +58,24 @@ public class ChangePasswordEmployeeHandlers : IRequestHandler<ChangePasswordComm
 
         //gerando uma nova senha hash para o usuario 
         employee.HashPassword = _passwordHasher.CreateHash(employee, request.Password);
-        
-        //passando as informacoes do request para ser armazenado
-        employee.Audits.Add(new AuditLog
-        {
-            Id = request.UpdatebyId,
-            Action = "ChangePassword",
-            PerformedAt = DateTimeOffset.UtcNow.ToOffset(TimeSpan.FromHours(-3)),
-        });
 
+        //passando as informacoes do request para ser armazenado
+        var log = new AuditLog
+        {
+            IdLog = Guid.NewGuid(),
+            TableName = "Path",
+            RecordId = employee.IdEmployee,
+            Action = "Create",
+            DateLog = DateTimeOffset.UtcNow, // Ajuste para o fuso horário de Brasília
+            PerformeBy = $"{request.UpdatebyId} | {employee.Nome} {employee.Surnames}",
+            ChangesJson = $"Indisponivel Pela ação do Endpoint"
+        };
+
+        //Atualizando o usuario no banco de dados
         await _command.UpdateEmployeeProfile(employee);
+
+        //Criando o log de auditoria no banco de dados
+        await _commandsLogs.CreateAuditLog(log);
 
         return Unit.Value;
     }

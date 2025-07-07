@@ -1,9 +1,11 @@
 ﻿using AuthUsers.Aplication.Commands.Employee;
 using AuthUsers.Aplication.Interfaces;
+using AuthUsers.domain.Entities;
 using AuthUsers.domain.Interfaces.Users;
 using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.Logging;
+using System.Text.Json;
 
 namespace AuthUsers.Aplication.Commands.Users.Handlers;
 
@@ -16,13 +18,13 @@ public class CreateUsersHandlers : IRequestHandler<CreateUsersCommands, Unit>
 
     private readonly IUserRepositoryCommands _commands;
 
-    private IValidator<CreateEmployeeCommands> _validator;
+    private IValidator<CreateUsersCommands> _validator;
 
     private IPasswordHasher _passwordHasher;
 
     private IValidateCPF _validateCPF;
 
-    public CreateUsersHandlers(IPasswordHasher passwordHasher, IValidator<CreateEmployeeCommands> validator, IUserRepositoryCommands commands, IUserRepositoryQuery query, ILogger<ChangeLoginUserHandlers> logger, IValidateCPF validateCPF)
+    public CreateUsersHandlers(IPasswordHasher passwordHasher, IValidator<CreateUsersCommands> validator, IUserRepositoryCommands commands, IUserRepositoryQuery query, ILogger<ChangeLoginUserHandlers> logger, IValidateCPF validateCPF)
     {
         _passwordHasher = passwordHasher;
         _validator = validator;
@@ -35,7 +37,7 @@ public class CreateUsersHandlers : IRequestHandler<CreateUsersCommands, Unit>
     public async Task<Unit> Handle(CreateUsersCommands request, CancellationToken cancellationToken)
     {
         //Atribui os valores do requst para o Validator para fazer uma validacao
-        var validation = _validator.Validate((IValidationContext)request);
+        var validation = _validator.Validate(request);
         if (!validation.IsValid)
         {   //se nao for valido coleta os erros do Fluent Validation
             var errors = validation.Errors.Select(e => new { e.PropertyName, e.ErrorMessage });
@@ -57,25 +59,23 @@ public class CreateUsersHandlers : IRequestHandler<CreateUsersCommands, Unit>
 
 
         //passa os atributos para o user
-        var user = new AuthUsers.domain.Entities.Users { IdUser = Guid.NewGuid(),
-                                                         Name = request.Name,
-                                                         Surname = request.Surname,
-                                                         Cpf = request.Cpf,
-                                                         Email = request.Email,
-                                                         HashPassword = request.HashPassword,
-                                                         IsValid = true,
-                                                         PhoneNumber = request.PhoneNumber,
-                                                         EmailConfirmed = false,
-                                                         AuditLog = new domain.Entities.AuditLog { Id = Guid.NewGuid(), 
-                                                                                                   Action = "Create",
-                                                                                                   PerformedAt = DateTimeOffset.UtcNow.ToOffset(TimeSpan.FromHours(-3)),
-                                                                                                   ChangesJson = request.json
-                                                                                                  }
+        var user = new AuthUsers.domain.Entities.Users
+        {
+            IdUser = Guid.NewGuid(),
+            Name = request.Name?.Trim(),
+            Surname = request.Surname?.Trim(),
+            Cpf = request.Cpf?.Trim(),
+            Email = request.Email?.Trim().ToLowerInvariant(),
+            HashPassword = request.HashPassword, // assumindo que já veio criptografada
+            IsValid = true,
+            PhoneNumber = request.PhoneNumber?.Trim(),
+            EmailConfirmed = false,
         };
 
+        
         //Passa o hash para o user
         user.HashPassword = _passwordHasher.CreateHash(user, request.HashPassword);
-        user.AuditLog.Id = user.IdUser;
+        
 
         //Cria o Usuario
         await _commands.CreateUserAsync(user);

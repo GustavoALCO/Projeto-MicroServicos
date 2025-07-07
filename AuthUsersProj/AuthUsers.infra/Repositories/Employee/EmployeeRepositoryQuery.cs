@@ -51,8 +51,7 @@ public class EmployeeRepositoryQuery : IEmployeeRepositoryQuery
 
         if (!employee.Any())
         {
-            _logger.LogWarning("Erro ao listar Funcionarios,\n Nao foi encontrado nenhum pelo Cargo selecionado");
-            return null;
+            _logger.LogWarning("Erro ao listar Funcionarios,\n Nao foi encontrado nenhum pelo Cargo selecionado");           
         }
 
         return employee;

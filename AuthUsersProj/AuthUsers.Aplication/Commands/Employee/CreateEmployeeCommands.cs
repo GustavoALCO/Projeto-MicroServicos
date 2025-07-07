@@ -14,5 +14,4 @@ public class CreateEmployeeCommands : IRequest<Unit>
 
     public Guid CreateById { get; set; }
 
-    public string json { get; set; }
 }
