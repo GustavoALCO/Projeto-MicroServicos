@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "AdsService.Dommain/1.0.0": {
+        "runtime": {
+          "AdsService.Dommain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AdsService.Dommain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

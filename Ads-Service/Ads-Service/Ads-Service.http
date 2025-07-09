@@ -1,0 +1,6 @@
+@Ads_Service_HostAddress = http://localhost:5229
+
+GET {{Ads_Service_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

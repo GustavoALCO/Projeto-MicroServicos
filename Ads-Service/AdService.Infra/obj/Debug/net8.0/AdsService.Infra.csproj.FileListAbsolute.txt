@@ -1,0 +1,17 @@
+C:\Users\alves\source\repos\Ads-Service\AdService.Infra\obj\Debug\net8.0\AdsService.Infra.csproj.AssemblyReference.cache
+C:\Users\alves\source\repos\Ads-Service\AdService.Infra\obj\Debug\net8.0\AdsService.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alves\source\repos\Ads-Service\AdService.Infra\obj\Debug\net8.0\AdsService.Infra.AssemblyInfoInputs.cache
+C:\Users\alves\source\repos\Ads-Service\AdService.Infra\obj\Debug\net8.0\AdsService.Infra.AssemblyInfo.cs
+C:\Users\alves\source\repos\Ads-Service\AdService.Infra\obj\Debug\net8.0\AdsService.Infra.csproj.CoreCompileInputs.cache
+C:\Users\alves\source\repos\Ads-Service\AdService.Infra\bin\Debug\net8.0\AdsService.Infra.deps.json
+C:\Users\alves\source\repos\Ads-Service\AdService.Infra\bin\Debug\net8.0\AdsService.Infra.runtimeconfig.json
+C:\Users\alves\source\repos\Ads-Service\AdService.Infra\bin\Debug\net8.0\AdsService.Infra.dll
+C:\Users\alves\source\repos\Ads-Service\AdService.Infra\bin\Debug\net8.0\AdsService.Infra.pdb
+C:\Users\alves\source\repos\Ads-Service\AdService.Infra\bin\Debug\net8.0\AdsService.Dommain.dll
+C:\Users\alves\source\repos\Ads-Service\AdService.Infra\bin\Debug\net8.0\AdsService.Dommain.pdb
+C:\Users\alves\source\repos\Ads-Service\AdService.Infra\obj\Debug\net8.0\AdsServi.95084522.Up2Date
+C:\Users\alves\source\repos\Ads-Service\AdService.Infra\obj\Debug\net8.0\AdsService.Infra.dll
+C:\Users\alves\source\repos\Ads-Service\AdService.Infra\obj\Debug\net8.0\refint\AdsService.Infra.dll
+C:\Users\alves\source\repos\Ads-Service\AdService.Infra\obj\Debug\net8.0\AdsService.Infra.pdb
+C:\Users\alves\source\repos\Ads-Service\AdService.Infra\obj\Debug\net8.0\AdsService.Infra.genruntimeconfig.cache
+C:\Users\alves\source\repos\Ads-Service\AdService.Infra\obj\Debug\net8.0\ref\AdsService.Infra.dll

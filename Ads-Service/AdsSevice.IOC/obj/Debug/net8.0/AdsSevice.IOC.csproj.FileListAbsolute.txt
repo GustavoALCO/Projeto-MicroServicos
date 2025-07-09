@@ -1,0 +1,17 @@
+C:\Users\alves\source\repos\Ads-Service\AdsSevice.IOC\bin\Debug\net8.0\AdsSevice.IOC.deps.json
+C:\Users\alves\source\repos\Ads-Service\AdsSevice.IOC\bin\Debug\net8.0\AdsSevice.IOC.dll
+C:\Users\alves\source\repos\Ads-Service\AdsSevice.IOC\bin\Debug\net8.0\AdsSevice.IOC.pdb
+C:\Users\alves\source\repos\Ads-Service\AdsSevice.IOC\bin\Debug\net8.0\AdsService.Dommain.dll
+C:\Users\alves\source\repos\Ads-Service\AdsSevice.IOC\bin\Debug\net8.0\AdsService.Infra.dll
+C:\Users\alves\source\repos\Ads-Service\AdsSevice.IOC\bin\Debug\net8.0\AdsService.Infra.pdb
+C:\Users\alves\source\repos\Ads-Service\AdsSevice.IOC\bin\Debug\net8.0\AdsService.Dommain.pdb
+C:\Users\alves\source\repos\Ads-Service\AdsSevice.IOC\obj\Debug\net8.0\AdsSevice.IOC.csproj.AssemblyReference.cache
+C:\Users\alves\source\repos\Ads-Service\AdsSevice.IOC\obj\Debug\net8.0\AdsSevice.IOC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alves\source\repos\Ads-Service\AdsSevice.IOC\obj\Debug\net8.0\AdsSevice.IOC.AssemblyInfoInputs.cache
+C:\Users\alves\source\repos\Ads-Service\AdsSevice.IOC\obj\Debug\net8.0\AdsSevice.IOC.AssemblyInfo.cs
+C:\Users\alves\source\repos\Ads-Service\AdsSevice.IOC\obj\Debug\net8.0\AdsSevice.IOC.csproj.CoreCompileInputs.cache
+C:\Users\alves\source\repos\Ads-Service\AdsSevice.IOC\obj\Debug\net8.0\AdsSevic.A7529CE1.Up2Date
+C:\Users\alves\source\repos\Ads-Service\AdsSevice.IOC\obj\Debug\net8.0\AdsSevice.IOC.dll
+C:\Users\alves\source\repos\Ads-Service\AdsSevice.IOC\obj\Debug\net8.0\refint\AdsSevice.IOC.dll
+C:\Users\alves\source\repos\Ads-Service\AdsSevice.IOC\obj\Debug\net8.0\AdsSevice.IOC.pdb
+C:\Users\alves\source\repos\Ads-Service\AdsSevice.IOC\obj\Debug\net8.0\ref\AdsSevice.IOC.dll

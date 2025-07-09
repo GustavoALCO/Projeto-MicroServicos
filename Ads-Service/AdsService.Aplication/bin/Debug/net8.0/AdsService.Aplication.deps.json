@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "AdsService.Aplication/1.0.0": {
+        "dependencies": {
+          "AdsService.Dommain": "1.0.0"
+        },
+        "runtime": {
+          "AdsService.Aplication.dll": {}
+        }
+      },
+      "AdsService.Dommain/1.0.0": {
+        "runtime": {
+          "AdsService.Dommain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AdsService.Aplication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AdsService.Dommain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
