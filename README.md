@@ -1,60 +1,116 @@
-Projeto de Microserviços baseado em Clean Architecture
-=
+# 🧱 Projeto de Microsserviços — Plataforma de Anúncios
 
-Este projeto tem como objetivo criar uma aplicação baseada em Clean Architecture para um sistema de microserviços, separando cada parte do código em serviços independentes. A proposta visa tornar o sistema mais escalável, de fácil manutenção e preparado para evoluções futuras.
+Este projeto é uma arquitetura baseada em microsserviços voltada para uma plataforma de anúncios (ex. OLX, Facebook Marktplace), com autenticação, gerenciamento de anúncios, comunicação entre usuários, pagamentos, notificações por e-mail e sistema de avaliações.
 
-Além disso, este projeto serve como base para aplicar essa abordagem em futuros desenvolvimentos, reforçando boas práticas de arquitetura e organização de código.
+---
 
-Soluções
-=
-O projeto será organizado onde cada solucao tera um arquivo docker e um DBA proprio sendo usado o PostGreSQL
+## 📌 1 — Autenticação & Gerenciamento de Usuários  
+**Microserviço:** `Auth-Service`
 
-- Produtos
-   =
-	A solução de produtos será responsável por toda a lógica de criação, organização e filtros dos produtos.
+**Responsável por:**
+- Registro de usuários
+- Login com JWT
+- Recuperação de senha
+- Confirmação de e-mail
+- Verificação de roles (`admin`, `user`)
+- Gerenciamento de perfis
+- Bloqueio/desbloqueio de contas
 
-- Utiliza o Azure Blob Storage para o armazenamento de imagens associadas aos produtos.
+**Tabelas principais:**
+- `User`
+- `UserRoles`
+---
 
-- Aplica validação de dados com FluentValidation, garantindo a integridade das informações inseridas.
-  
-- Autenticação
-  =
-  A solução de autenticação gerencia os logins de usuários e funcionários, promovendo uma organização mais segura e segmentada de acessos no sistema.
-  
-- **Baseada nas bibliotecas:**
+## 📌 2 — Gerenciamento de Anúncios  
+**Microserviço:** `Ads-Service`
 
-	- Microsoft.AspNetCore.Identity
+**Responsável por:**
+- CRUD de anúncios (produtos)
+- Upload de imagens (via S3, Cloudinary, etc.)
+- Validação do proprietário do anúncio
+- Busca e filtros por categoria, preço, localização
+- Contador de visualizações
 
-	- Microsoft.IdentityModel.Tokens
+**Tabelas principais:**
+- `Ad` ou `Product`
 
-	- System.IdentityModel.Tokens.Jwt
+---
 
-	- Responsável por gerar e validar tokens JWT.
+## 📌 3 — Chat Interno  
+**Microserviço:** `Chat-Service`
 
-	- Permite controle de acesso por usuário e/ou perfil (role).
- 
+**Responsável por:**
+- Criação de salas de chat entre usuários
+- Envio e recebimento de mensagens
+- Histórico de mensagens
+- Notificações de mensagens não lidas
 
-- Pagamento
-  =
-	A solução de pagamento será responsável pela comunicação com a API do Mercado Pago, permitindo o processamento de transações financeiras com segurança e confiabilidade.
+**Tabelas principais:**
+- `ChatRoom` 
+- `Message`
 
-- Realiza a integração direta com o sistema de pagamentos do Mercado Pago.
+---
 
- - Armazena os dados da transação (status de pagamento e produtos do carrinho) em um banco de dados isolado, garantindo separação de responsabilidades e segurança.
+## 📌 4 — Sistema de E-mails  
+**Microserviço:** `Email-Service`
 
-- Implementada com as bibliotecas oficiais do Mercado Pago
+**Responsável por:**
+- Envio de confirmação de cadastro
+- Notificações sobre status de anúncios
+- Alertas de mensagens não lidas
+- Recuperação de senha
 
-- Emails
-  =
-  A solução de envio de e-mails é responsável por centralizar e gerenciar o disparo de mensagens eletrônicas em diversos contextos do sistema, como:
+> 💡 Este serviço é idealmente desacoplado, consumindo mensagens de fila (ex: RabbitMQ, Kafka) originadas pelos serviços de `Auth` e `Ads`.
 
-	- Confirmação de cadastro
+---
 
-	 - Recuperação de senha
+## 📌 5 — Sistema de Pagamentos  
+**Microserviço:** `Payment-Service`
 
-	- Notificações administrativas e operacionais
+**Responsável por:**
+- Processamento de checkout seguro
+- Integração com gateway de pagamento (ex: Stripe, Mercado Pago)
+- Gerenciamento de status do pagamento (pendente, pago, reembolsado)
+- Split de pagamentos para comissões da plataforma
+- Controle de saldo do vendedor
+- Webhooks para atualização de status em tempo real
 
-	- Essa solução foi implementada como um microserviço independente, promovendo reutilização, escalabilidade e separação de responsabilidades.
+**Tabelas principais:**
+- `Order`
+- `Payment`
+---
 
-	- Tecnologias e recursos utilizados:
-		- MailKit: biblioteca robusta e moderna para envio de e-mails via protocolo SMTP.
+## 📌 6 — Ranqueamento & Avaliações  
+**Microserviço:** `Review-Service`
+
+**Responsável por:**
+- Mostrar quantidades de acessos 
+- Avaliações de vendedores por compradores
+- Cálculo de média das avaliações
+- Curtidas e favoritos em anúncios
+- Contador de visualizações e likes
+- Histórico de reputação do usuário
+
+**Tabelas principais:**
+- `Review`
+- `UserRating`
+
+
+---
+
+## 🛠️ Tecnologias 
+- .NET 8 (Web API)
+- PostgreSQL (persistência)
+- RabbitMQ (mensageria)
+- Redis (cache e filas temporárias)
+- Docker & Docker Compose
+- JWT (auth)
+- Swagger (documentação)
+
+---
+
+## 📁 Organização por pastas
+Cada microserviço está isolado em sua própria pasta.
+
+---
+
