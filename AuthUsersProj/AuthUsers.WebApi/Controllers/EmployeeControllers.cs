@@ -23,9 +23,9 @@ public class EmployeeControllers : ControllerBase
 
     
 
-    [Authorize(Roles = "Admin")]
+    
     [HttpPost("Employee")]
-    public async Task<IActionResult> PostEmployee([FromBody] CreateEmployeeCommands createEmployee)
+    public async Task<IActionResult> PostEmployee([FromQuery] CreateEmployeeCommands createEmployee)
     {
         try
         {

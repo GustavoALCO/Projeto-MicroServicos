@@ -30,3 +30,19 @@ C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\Aut
 C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\refint\AuthUsers.Aplication.dll
 C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\AuthUsers.Aplication.pdb
 C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\ref\AuthUsers.Aplication.dll
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\bin\Debug\net8.0\AuthUsers.Aplication.deps.json
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\bin\Debug\net8.0\AuthUsers.Aplication.dll
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\bin\Debug\net8.0\AuthUsers.Aplication.pdb
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\bin\Debug\net8.0\AuthUsers.domain.dll
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\bin\Debug\net8.0\AuthUsers.domain.pdb
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\AuthUsers.Aplication.csproj.AssemblyReference.cache
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\AuthUsers.Aplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\AuthUsers.Aplication.AssemblyInfoInputs.cache
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\AuthUsers.Aplication.AssemblyInfo.cs
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\AuthUsers.Aplication.csproj.CoreCompileInputs.cache
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\AuthUsers.Aplication.sourcelink.json
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\AuthUser.A86B5CAC.Up2Date
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\AuthUsers.Aplication.dll
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\refint\AuthUsers.Aplication.dll
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\AuthUsers.Aplication.pdb
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.Aplication\obj\Debug\net8.0\ref\AuthUsers.Aplication.dll

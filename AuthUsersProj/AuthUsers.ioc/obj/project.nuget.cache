@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "czIdNOlqLgc=",
+  "dgSpecHash": "ps86LrW4o7o=",
   "success": true,
-  "projectFilePath": "C:\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.ioc\\AuthUsers.ioc.csproj",
+  "projectFilePath": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.ioc\\AuthUsers.ioc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alves\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512",
     "C:\\Users\\alves\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.0.0\\fluentvalidation.dependencyinjectionextensions.12.0.0.nupkg.sha512",

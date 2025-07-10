@@ -102,7 +102,7 @@ public class CreateEmployeeHandlers : IRequestHandler<CreateEmployeeCommands, Un
             RecordId = user.IdEmployee,
             Action = "Create",
             DateLog = DateTimeOffset.UtcNow,
-            PerformeBy = $"{request.CreateById} | {adminUser.Nome} {adminUser.Surnames}",
+            PerformeBy = "{request.CreateById} | {adminUser.Nome} {adminUser.Surnames}",
             ChangesJson = "Não Disponivel pela Ação do Endpoint"
         };
 

@@ -24,7 +24,7 @@ public class UsersControllers : ControllerBase
 
     [Authorize(Roles = "Admin,Manager,Viewer")]
     [HttpGet("BuscarTodosUsers")]
-    public async Task<IActionResult> GetUsers(GetAllUsersHandler getAllUsersHandler)
+    public async Task<IActionResult> GetUsers([FromQuery] GetAllUsersQuery getAllUsersHandler)
     {
         try
         {
@@ -41,7 +41,7 @@ public class UsersControllers : ControllerBase
 
     [Authorize(Roles = "Admin,Manager")]
     [HttpGet("BuscarPorId")]
-    public async Task<IActionResult> GetUserById([FromBody] GetUserIdQuery getUserByIdQuery)
+    public async Task<IActionResult> GetUserById([FromQuery] GetUserIdQuery getUserByIdQuery)
     {
         try
         {
@@ -62,7 +62,7 @@ public class UsersControllers : ControllerBase
 
     [Authorize(Roles = "Admin,Manager")]
     [HttpGet("BuscarPeloEmail")]
-    public async Task<IActionResult> GetUserByEmail([FromBody] GetAllEmployeeAdminQuery getUserByEmailQuery)
+    public async Task<IActionResult> GetUserByEmail([FromQuery] GetUserEmailQuery getUserByEmailQuery)
     {
         try
         {

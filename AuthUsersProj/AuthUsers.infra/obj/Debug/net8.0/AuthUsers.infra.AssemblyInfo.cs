@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AuthUsers.infra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1eb83e90b9e5276f2e8e332dc9448c707bb0fd36")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9aec2062a32de74f7f88b28ca93c3991ff17f414")]
 [assembly: System.Reflection.AssemblyProductAttribute("AuthUsers.infra")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AuthUsers.infra")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -31,7 +31,7 @@ public class GetUserIdHandler : IRequestHandler<GetUserIdQuery, UsersDTO>
             throw new Exception($"User com o ID {request.Id} não encontrado.");
         }
 
-        var adress = await _adressRepositoryQuery.GetAllAsync(users.IdUser, request.Page);
+        var adress = await _adressRepositoryQuery.GetAllAsync(request.Id, 5);
 
         //Comunicando que o usuário foi encontrado com sucesso
         _logger.LogInformation("Usuario encontrado com o ID {Id}.", request.Id);

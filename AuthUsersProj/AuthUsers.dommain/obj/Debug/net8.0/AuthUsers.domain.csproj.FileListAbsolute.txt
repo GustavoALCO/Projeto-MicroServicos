@@ -22,3 +22,15 @@ C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.dommain\obj\Debug\net8.0\AuthUs
 C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.dommain\obj\Debug\net8.0\refint\AuthUsers.domain.dll
 C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.dommain\obj\Debug\net8.0\AuthUsers.domain.pdb
 C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.dommain\obj\Debug\net8.0\ref\AuthUsers.domain.dll
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.dommain\bin\Debug\net8.0\AuthUsers.domain.deps.json
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.dommain\bin\Debug\net8.0\AuthUsers.domain.dll
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.dommain\bin\Debug\net8.0\AuthUsers.domain.pdb
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.dommain\obj\Debug\net8.0\AuthUsers.domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.dommain\obj\Debug\net8.0\AuthUsers.domain.AssemblyInfoInputs.cache
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.dommain\obj\Debug\net8.0\AuthUsers.domain.AssemblyInfo.cs
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.dommain\obj\Debug\net8.0\AuthUsers.domain.csproj.CoreCompileInputs.cache
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.dommain\obj\Debug\net8.0\AuthUsers.domain.sourcelink.json
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.dommain\obj\Debug\net8.0\AuthUsers.domain.dll
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.dommain\obj\Debug\net8.0\refint\AuthUsers.domain.dll
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.dommain\obj\Debug\net8.0\AuthUsers.domain.pdb
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.dommain\obj\Debug\net8.0\ref\AuthUsers.domain.dll

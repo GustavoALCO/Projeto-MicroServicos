@@ -2,7 +2,7 @@
 
 public interface IAdressRepositoryQuery
 {
-    public Task<Entities.Adress?> GetByIdAsync(int idAdress);
+    public Task<Entities.Adress?> GetByIdAsync(int id);
 
-    public Task<IEnumerable<Entities.Adress>> GetAllAsync(Guid idUser, int page);
+    public Task<IEnumerable<Entities.Adress>> GetAllAsync(Guid idAdress, int page);
 }

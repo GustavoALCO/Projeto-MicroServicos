@@ -19,7 +19,7 @@ public class AdressControllers : ControllerBase
         _logger = logger;
     }
 
-    [Authorize(Roles = "Users")]
+    [Authorize]
     [HttpPost("Adress")]
     public async Task<IActionResult> PostAdress([FromBody] CreateAdressCommands createAdress)
     {
@@ -40,9 +40,9 @@ public class AdressControllers : ControllerBase
         }
     }
 
-    [Authorize(Roles = "Users")]
+    [Authorize]
     [HttpDelete("Adress")]
-    public async Task<IActionResult> DeleteAdress([FromBody] DeleteAdressHandler deleteAdressHandlers)
+    public async Task<IActionResult> DeleteAdress([FromQuery] DeleteAdressHandler deleteAdressHandlers)
     {
         try
         {
@@ -61,7 +61,7 @@ public class AdressControllers : ControllerBase
         }
     }
 
-    [Authorize(Roles = "Users")]
+    [Authorize]
     [HttpPut("Adress")]
     public async Task<IActionResult> PutAdress([FromBody] UpdateAdressCommands updateAdressCommands)
     {
@@ -82,7 +82,7 @@ public class AdressControllers : ControllerBase
         }
     }
 
-    [Authorize(Roles = "Admin,Manager,Viewer")]
+    [Authorize]
     [HttpGet("BuscarID")]
     public async Task<IActionResult> GetAdressById([FromQuery] GetAdressIdQuery id)
     {
@@ -103,7 +103,7 @@ public class AdressControllers : ControllerBase
         }
     }
 
-    [Authorize(Roles = "Admin,Manager,Viewer")]
+    [Authorize]
     [HttpGet("BuscarTodos")]
     public async Task<IActionResult> GetAllAdresses([FromQuery] GetAllAdressQuery getAllAdressesQuery)
     {

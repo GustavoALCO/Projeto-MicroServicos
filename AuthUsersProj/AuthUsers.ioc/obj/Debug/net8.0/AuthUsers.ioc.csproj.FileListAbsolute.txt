@@ -38,3 +38,23 @@ C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.ioc\obj\Debug\net8.0\AuthUsers.
 C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.ioc\obj\Debug\net8.0\refint\AuthUsers.ioc.dll
 C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.ioc\obj\Debug\net8.0\AuthUsers.ioc.pdb
 C:\Projeto-MicroServicos\AuthUsersProj\AuthUsers.ioc\obj\Debug\net8.0\ref\AuthUsers.ioc.dll
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.ioc\bin\Debug\net8.0\AuthUsers.ioc.deps.json
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.ioc\bin\Debug\net8.0\AuthUsers.ioc.dll
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.ioc\bin\Debug\net8.0\AuthUsers.ioc.pdb
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.ioc\bin\Debug\net8.0\AuthUsers.Aplication.dll
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.ioc\bin\Debug\net8.0\AuthUsers.domain.dll
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.ioc\bin\Debug\net8.0\AuthUsers.infra.dll
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.ioc\bin\Debug\net8.0\AuthUsers.Aplication.pdb
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.ioc\bin\Debug\net8.0\AuthUsers.infra.pdb
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.ioc\bin\Debug\net8.0\AuthUsers.domain.pdb
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.ioc\obj\Debug\net8.0\AuthUsers.ioc.csproj.AssemblyReference.cache
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.ioc\obj\Debug\net8.0\AuthUsers.ioc.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.ioc\obj\Debug\net8.0\AuthUsers.ioc.AssemblyInfoInputs.cache
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.ioc\obj\Debug\net8.0\AuthUsers.ioc.AssemblyInfo.cs
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.ioc\obj\Debug\net8.0\AuthUsers.ioc.csproj.CoreCompileInputs.cache
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.ioc\obj\Debug\net8.0\AuthUsers.ioc.sourcelink.json
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.ioc\obj\Debug\net8.0\AuthUser.31545D94.Up2Date
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.ioc\obj\Debug\net8.0\AuthUsers.ioc.dll
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.ioc\obj\Debug\net8.0\refint\AuthUsers.ioc.dll
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.ioc\obj\Debug\net8.0\AuthUsers.ioc.pdb
+D:\Projeto de Microservicos\Projeto-MicroServicos\AuthUsersProj\AuthUsers.ioc\obj\Debug\net8.0\ref\AuthUsers.ioc.dll
