@@ -1,0 +1,28 @@
+services:
+  adsservice.webapi:
+    image: ${DOCKER_REGISTRY-}adsservicewebapi
+    build:
+      context: .
+      dockerfile: AdsService.WebApi/Dockerfile
+    depends_on:
+      - postgres-db
+    environment:
+      - ConnectionStrings__DefaultConnection=Host=postgres-db;Port=5433;Database=authdb;Username=authuser;Password=Teste123
+    ports:
+      - "8081:8081" 
+    tty: true
+
+  postgres-db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: adsdb
+      POSTGRES_USER: adsuser
+      POSTGRES_PASSWORD: Teste123
+    ports:
+      - "5432:5432"
+    volumes:
+    #funciona para armazenar os dados no banco de dados mesmo que o container seja parado 
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:

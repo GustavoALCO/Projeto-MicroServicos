@@ -2830,11 +2830,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.WebApi\\AuthUsers.WebApi.csproj",
+      "projectUniqueName": "C:\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.WebApi\\AuthUsers.WebApi.csproj",
       "projectName": "AuthUsers.WebApi",
-      "projectPath": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.WebApi\\AuthUsers.WebApi.csproj",
+      "projectPath": "C:\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.WebApi\\AuthUsers.WebApi.csproj",
       "packagesPath": "C:\\Users\\alves\\.nuget\\packages\\",
-      "outputPath": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.WebApi\\obj\\",
+      "outputPath": "C:\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2849,18 +2849,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.infra\\AuthUsers.infra.csproj": {
-              "projectPath": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.infra\\AuthUsers.infra.csproj"
+            "C:\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.infra\\AuthUsers.infra.csproj": {
+              "projectPath": "C:\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.infra\\AuthUsers.infra.csproj"
             },
-            "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.ioc\\AuthUsers.ioc.csproj": {
-              "projectPath": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.ioc\\AuthUsers.ioc.csproj"
+            "C:\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.ioc\\AuthUsers.ioc.csproj": {
+              "projectPath": "C:\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.ioc\\AuthUsers.ioc.csproj"
             }
           }
         }
@@ -2875,7 +2874,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -2909,7 +2908,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

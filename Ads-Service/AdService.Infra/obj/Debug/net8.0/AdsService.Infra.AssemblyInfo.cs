@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AdsService.Infra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd39beaef63dedec351128654c2eab620bad908a")]
 [assembly: System.Reflection.AssemblyProductAttribute("AdsService.Infra")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AdsService.Infra")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

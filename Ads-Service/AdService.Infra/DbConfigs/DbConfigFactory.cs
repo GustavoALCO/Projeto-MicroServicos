@@ -1,5 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore.Design;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Design;
+using Microsoft.Extensions.Configuration;
 
 namespace AuthUsers.infra.DbConfig;
 
@@ -10,7 +11,7 @@ public class ContextDBFactory : IDesignTimeDbContextFactory<ContextDB>
 
         var optionsBuilder = new DbContextOptionsBuilder<ContextDB>();
 
-        optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=authdb;Username=authuser;Password=Teste123");
+        optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=adsdb;Username=adsuser;Password=Teste123");
 
         return new ContextDB(optionsBuilder.Options);
     }

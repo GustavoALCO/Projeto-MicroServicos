@@ -9,3 +9,15 @@ C:\Users\alves\source\repos\Ads-Service\AdsService.dommain\obj\Debug\net8.0\AdsS
 C:\Users\alves\source\repos\Ads-Service\AdsService.dommain\obj\Debug\net8.0\refint\AdsService.Dommain.dll
 C:\Users\alves\source\repos\Ads-Service\AdsService.dommain\obj\Debug\net8.0\AdsService.Dommain.pdb
 C:\Users\alves\source\repos\Ads-Service\AdsService.dommain\obj\Debug\net8.0\ref\AdsService.Dommain.dll
+C:\Projeto-MicroServicos\Ads-Service\AdsService.dommain\bin\Debug\net8.0\AdsService.Dommain.deps.json
+C:\Projeto-MicroServicos\Ads-Service\AdsService.dommain\bin\Debug\net8.0\AdsService.Dommain.dll
+C:\Projeto-MicroServicos\Ads-Service\AdsService.dommain\bin\Debug\net8.0\AdsService.Dommain.pdb
+C:\Projeto-MicroServicos\Ads-Service\AdsService.dommain\obj\Debug\net8.0\AdsService.Dommain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projeto-MicroServicos\Ads-Service\AdsService.dommain\obj\Debug\net8.0\AdsService.Dommain.AssemblyInfoInputs.cache
+C:\Projeto-MicroServicos\Ads-Service\AdsService.dommain\obj\Debug\net8.0\AdsService.Dommain.AssemblyInfo.cs
+C:\Projeto-MicroServicos\Ads-Service\AdsService.dommain\obj\Debug\net8.0\AdsService.Dommain.csproj.CoreCompileInputs.cache
+C:\Projeto-MicroServicos\Ads-Service\AdsService.dommain\obj\Debug\net8.0\AdsService.Dommain.sourcelink.json
+C:\Projeto-MicroServicos\Ads-Service\AdsService.dommain\obj\Debug\net8.0\AdsService.Dommain.dll
+C:\Projeto-MicroServicos\Ads-Service\AdsService.dommain\obj\Debug\net8.0\refint\AdsService.Dommain.dll
+C:\Projeto-MicroServicos\Ads-Service\AdsService.dommain\obj\Debug\net8.0\AdsService.Dommain.pdb
+C:\Projeto-MicroServicos\Ads-Service\AdsService.dommain\obj\Debug\net8.0\ref\AdsService.Dommain.dll

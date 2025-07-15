@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4pTyg2caDS8=",
+  "dgSpecHash": "0Le4EPY1uNY=",
   "success": true,
-  "projectFilePath": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.Aplication\\AuthUsers.Aplication.csproj",
+  "projectFilePath": "C:\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.Aplication\\AuthUsers.Aplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alves\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512",
     "C:\\Users\\alves\\.nuget\\packages\\mediatr\\12.5.0\\mediatr.12.5.0.nupkg.sha512",

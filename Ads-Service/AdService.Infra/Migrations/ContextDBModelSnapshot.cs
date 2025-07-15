@@ -157,9 +157,20 @@ namespace AdsService.Infra.Migrations
 
                             NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b1.Property<int>("Id"));
 
+                            b1.Property<string>("ContentType")
+                                .IsRequired()
+                                .HasColumnType("text");
+
                             b1.Property<byte[]>("Data")
                                 .IsRequired()
                                 .HasColumnType("bytea");
+
+                            b1.Property<string>("FileName")
+                                .IsRequired()
+                                .HasColumnType("text");
+
+                            b1.Property<Guid>("IdImage")
+                                .HasColumnType("uuid");
 
                             b1.HasKey("ProductIdProduct", "Id");
 

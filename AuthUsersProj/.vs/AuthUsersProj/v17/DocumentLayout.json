@@ -1,10 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\AuthUsersProj\\",
+  "WorkspaceRootPath": "C:\\Projeto-MicroServicos\\AuthUsersProj\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C8F75AF7-5838-4218-A367-C4297593DBA9}|AuthUsers.WebApi\\AuthUsers.WebApi.csproj|d:\\projeto de microservicos\\projeto-microservicos\\authusersproj\\authusers.webapi\\controllers\\userscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8F75AF7-5838-4218-A367-C4297593DBA9}|AuthUsers.WebApi\\AuthUsers.WebApi.csproj|solutionrelative:authusers.webapi\\controllers\\userscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\projeto-microservicos\\authusersproj\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\projeto-microservicos\\authusersproj\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F75AF7-5838-4218-A367-C4297593DBA9}|AuthUsers.WebApi\\AuthUsers.WebApi.csproj|c:\\projeto-microservicos\\authusersproj\\authusers.webapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C8F75AF7-5838-4218-A367-C4297593DBA9}|AuthUsers.WebApi\\AuthUsers.WebApi.csproj|solutionrelative:authusers.webapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F75AF7-5838-4218-A367-C4297593DBA9}|AuthUsers.WebApi\\AuthUsers.WebApi.csproj|c:\\projeto-microservicos\\authusersproj\\authusers.webapi\\authusers.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{C8F75AF7-5838-4218-A367-C4297593DBA9}|AuthUsers.WebApi\\AuthUsers.WebApi.csproj|solutionrelative:authusers.webapi\\authusers.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F75AF7-5838-4218-A367-C4297593DBA9}|AuthUsers.WebApi\\AuthUsers.WebApi.csproj|c:\\projeto-microservicos\\authusersproj\\authusers.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F75AF7-5838-4218-A367-C4297593DBA9}|AuthUsers.WebApi\\AuthUsers.WebApi.csproj|solutionrelative:authusers.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +39,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UsersControllers.cs",
-              "DocumentMoniker": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.WebApi\\Controllers\\UsersControllers.cs",
-              "RelativeDocumentMoniker": "AuthUsers.WebApi\\Controllers\\UsersControllers.cs",
-              "ToolTip": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.WebApi\\Controllers\\UsersControllers.cs",
-              "RelativeToolTip": "AuthUsers.WebApi\\Controllers\\UsersControllers.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAowDcAAAAcAAAAAAAAAA==",
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Projeto-MicroServicos\\AuthUsersProj\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Projeto-MicroServicos\\AuthUsersProj\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-07-15T14:34:25.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "docker-compose",
+              "DocumentMoniker": "C:\\Projeto-MicroServicos\\AuthUsersProj\\docker-compose.dcproj",
+              "RelativeDocumentMoniker": "docker-compose.dcproj",
+              "ToolTip": "C:\\Projeto-MicroServicos\\AuthUsersProj\\docker-compose.dcproj",
+              "RelativeToolTip": "docker-compose.dcproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-15T14:34:20.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.WebApi\\Dockerfile",
+              "RelativeDocumentMoniker": "AuthUsers.WebApi\\Dockerfile",
+              "ToolTip": "C:\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.WebApi\\Dockerfile",
+              "RelativeToolTip": "AuthUsers.WebApi\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-15T14:34:06.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthUsers.WebApi.http",
+              "DocumentMoniker": "C:\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.WebApi\\AuthUsers.WebApi.http",
+              "RelativeDocumentMoniker": "AuthUsers.WebApi\\AuthUsers.WebApi.http",
+              "ToolTip": "C:\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.WebApi\\AuthUsers.WebApi.http",
+              "RelativeToolTip": "AuthUsers.WebApi\\AuthUsers.WebApi.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-07-15T14:34:04.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "AuthUsers.WebApi\\Program.cs",
+              "ToolTip": "C:\\Projeto-MicroServicos\\AuthUsersProj\\AuthUsers.WebApi\\Program.cs",
+              "RelativeToolTip": "AuthUsers.WebApi\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T18:15:03.874Z",
+              "WhenOpened": "2025-07-11T17:49:34.528Z",
               "EditorCaption": ""
             }
           ]

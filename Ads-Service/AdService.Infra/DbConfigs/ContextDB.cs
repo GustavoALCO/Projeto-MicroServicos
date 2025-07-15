@@ -11,7 +11,9 @@ public class ContextDB : DbContext
 
     public DbSet<Product> Products { get; set; }
 
-   
+    public DbSet<Images> Images { get; set; }
+
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         //Declarando entidade produto
@@ -45,5 +47,6 @@ public class ContextDB : DbContext
 
         modelBuilder.Entity<Product>()
             .OwnsMany(p => p.Images);
+
     }
    }

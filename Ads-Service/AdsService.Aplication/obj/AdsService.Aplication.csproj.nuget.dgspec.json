@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alves\\source\\repos\\Ads-Service\\AdsService.Aplication\\AdsService.Aplication.csproj": {}
+    "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.Aplication\\AdsService.Aplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alves\\source\\repos\\Ads-Service\\AdsService.Aplication\\AdsService.Aplication.csproj": {
+    "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.Aplication\\AdsService.Aplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alves\\source\\repos\\Ads-Service\\AdsService.Aplication\\AdsService.Aplication.csproj",
+        "projectUniqueName": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.Aplication\\AdsService.Aplication.csproj",
         "projectName": "AdsService.Aplication",
-        "projectPath": "C:\\Users\\alves\\source\\repos\\Ads-Service\\AdsService.Aplication\\AdsService.Aplication.csproj",
+        "projectPath": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.Aplication\\AdsService.Aplication.csproj",
         "packagesPath": "C:\\Users\\alves\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alves\\source\\repos\\Ads-Service\\AdsService.Aplication\\obj\\",
+        "outputPath": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.Aplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\alves\\source\\repos\\Ads-Service\\AdsService.dommain\\AdsService.Dommain.csproj": {
-                "projectPath": "C:\\Users\\alves\\source\\repos\\Ads-Service\\AdsService.dommain\\AdsService.Dommain.csproj"
+              "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.dommain\\AdsService.Dommain.csproj": {
+                "projectPath": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.dommain\\AdsService.Dommain.csproj"
               }
             }
           }
@@ -53,6 +53,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[13.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -73,14 +83,14 @@
         }
       }
     },
-    "C:\\Users\\alves\\source\\repos\\Ads-Service\\AdsService.dommain\\AdsService.Dommain.csproj": {
+    "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.dommain\\AdsService.Dommain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alves\\source\\repos\\Ads-Service\\AdsService.dommain\\AdsService.Dommain.csproj",
+        "projectUniqueName": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.dommain\\AdsService.Dommain.csproj",
         "projectName": "AdsService.Dommain",
-        "projectPath": "C:\\Users\\alves\\source\\repos\\Ads-Service\\AdsService.dommain\\AdsService.Dommain.csproj",
+        "projectPath": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.dommain\\AdsService.Dommain.csproj",
         "packagesPath": "C:\\Users\\alves\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alves\\source\\repos\\Ads-Service\\AdsService.dommain\\obj\\",
+        "outputPath": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.dommain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

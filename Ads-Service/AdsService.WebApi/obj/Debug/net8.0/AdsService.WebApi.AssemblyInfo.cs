@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("ac6b8c3c-4722-49ef-be55-428f0097a61e")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("AdsService.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd39beaef63dedec351128654c2eab620bad908a")]
 [assembly: System.Reflection.AssemblyProductAttribute("AdsService.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AdsService.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
