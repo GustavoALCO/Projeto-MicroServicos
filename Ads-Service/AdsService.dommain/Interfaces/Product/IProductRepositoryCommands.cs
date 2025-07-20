@@ -1,10 +1,14 @@
-﻿namespace AdsService.Dommain.Interfaces.Product;
+﻿
+
+
+namespace AdsService.Dommain.Interfaces.Product;
 
 public interface IProductRepositoryCommands
 {
-    Task DeleteAsync(Dommain.Entities.Product product);
+    Task DeleteAsync(Entities.Product product);
 
-    Task UpdateAsync(Dommain.Entities.Product product);
+    Task UpdateAsync(Entities.Product product);
 
-    Task CreateAsync(Dommain.Entities.Product product);
+    Task CreateAsync(Entities.Product product);
+    
 }

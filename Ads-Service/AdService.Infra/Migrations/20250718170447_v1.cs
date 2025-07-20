@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -18,10 +19,11 @@ namespace AdsService.Infra.Migrations
                 {
                     IdProduct = table.Column<Guid>(type: "uuid", nullable: false),
                     IdUser = table.Column<Guid>(type: "uuid", nullable: false),
-                    Title = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
-                    Description = table.Column<string>(type: "character varying(200)", maxLength: 200, nullable: false),
-                    State = table.Column<string>(type: "character varying(2)", maxLength: 2, nullable: false),
+                    Title = table.Column<string>(type: "text", nullable: false),
+                    Description = table.Column<string>(type: "text", nullable: false),
+                    State = table.Column<string>(type: "text", nullable: false),
                     City = table.Column<string>(type: "text", nullable: false),
+                    ZipCode = table.Column<string>(type: "text", nullable: false),
                     Category_CategoryType = table.Column<string>(type: "text", nullable: false),
                     Category_Car_CarBrand = table.Column<string>(type: "text", nullable: true),
                     Category_Car_Model = table.Column<string>(type: "text", nullable: true),
@@ -53,7 +55,7 @@ namespace AdsService.Infra.Migrations
                     IdImage = table.Column<Guid>(type: "uuid", nullable: false),
                     FileName = table.Column<string>(type: "text", nullable: false),
                     ContentType = table.Column<string>(type: "text", nullable: false),
-                    Data = table.Column<byte[]>(type: "bytea", nullable: false)
+                    Data = table.Column<List<byte[]>>(type: "bytea[]", nullable: false)
                 },
                 constraints: table =>
                 {

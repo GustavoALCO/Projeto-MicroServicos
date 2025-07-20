@@ -33,3 +33,21 @@ C:\Projeto-MicroServicos\Ads-Service\AdService.Infra\obj\Debug\net8.0\refint\Ads
 C:\Projeto-MicroServicos\Ads-Service\AdService.Infra\obj\Debug\net8.0\AdsService.Infra.pdb
 C:\Projeto-MicroServicos\Ads-Service\AdService.Infra\obj\Debug\net8.0\AdsService.Infra.genruntimeconfig.cache
 C:\Projeto-MicroServicos\Ads-Service\AdService.Infra\obj\Debug\net8.0\ref\AdsService.Infra.dll
+D:\Projeto de Microservicos\Projeto-MicroServicos\Ads-Service\AdService.Infra\bin\Debug\net8.0\AdsService.Infra.deps.json
+D:\Projeto de Microservicos\Projeto-MicroServicos\Ads-Service\AdService.Infra\bin\Debug\net8.0\AdsService.Infra.runtimeconfig.json
+D:\Projeto de Microservicos\Projeto-MicroServicos\Ads-Service\AdService.Infra\bin\Debug\net8.0\AdsService.Infra.dll
+D:\Projeto de Microservicos\Projeto-MicroServicos\Ads-Service\AdService.Infra\bin\Debug\net8.0\AdsService.Infra.pdb
+D:\Projeto de Microservicos\Projeto-MicroServicos\Ads-Service\AdService.Infra\bin\Debug\net8.0\AdsService.Dommain.dll
+D:\Projeto de Microservicos\Projeto-MicroServicos\Ads-Service\AdService.Infra\bin\Debug\net8.0\AdsService.Dommain.pdb
+D:\Projeto de Microservicos\Projeto-MicroServicos\Ads-Service\AdService.Infra\obj\Debug\net8.0\AdsService.Infra.csproj.AssemblyReference.cache
+D:\Projeto de Microservicos\Projeto-MicroServicos\Ads-Service\AdService.Infra\obj\Debug\net8.0\AdsService.Infra.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projeto de Microservicos\Projeto-MicroServicos\Ads-Service\AdService.Infra\obj\Debug\net8.0\AdsService.Infra.AssemblyInfoInputs.cache
+D:\Projeto de Microservicos\Projeto-MicroServicos\Ads-Service\AdService.Infra\obj\Debug\net8.0\AdsService.Infra.AssemblyInfo.cs
+D:\Projeto de Microservicos\Projeto-MicroServicos\Ads-Service\AdService.Infra\obj\Debug\net8.0\AdsService.Infra.csproj.CoreCompileInputs.cache
+D:\Projeto de Microservicos\Projeto-MicroServicos\Ads-Service\AdService.Infra\obj\Debug\net8.0\AdsService.Infra.sourcelink.json
+D:\Projeto de Microservicos\Projeto-MicroServicos\Ads-Service\AdService.Infra\obj\Debug\net8.0\AdsServi.95084522.Up2Date
+D:\Projeto de Microservicos\Projeto-MicroServicos\Ads-Service\AdService.Infra\obj\Debug\net8.0\AdsService.Infra.dll
+D:\Projeto de Microservicos\Projeto-MicroServicos\Ads-Service\AdService.Infra\obj\Debug\net8.0\refint\AdsService.Infra.dll
+D:\Projeto de Microservicos\Projeto-MicroServicos\Ads-Service\AdService.Infra\obj\Debug\net8.0\AdsService.Infra.pdb
+D:\Projeto de Microservicos\Projeto-MicroServicos\Ads-Service\AdService.Infra\obj\Debug\net8.0\AdsService.Infra.genruntimeconfig.cache
+D:\Projeto de Microservicos\Projeto-MicroServicos\Ads-Service\AdService.Infra\obj\Debug\net8.0\ref\AdsService.Infra.dll

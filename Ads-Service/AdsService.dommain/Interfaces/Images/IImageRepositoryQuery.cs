@@ -2,5 +2,5 @@
 
 public interface IImageRepositoryQuery
 {
-    Task<List<Dommain.Entities.Images>> GetImageByIdProductAsync(Guid ProductID);
+    Task<Dommain.Entities.Images> GetImageByIdProductAsync(Guid ProductID);
 }

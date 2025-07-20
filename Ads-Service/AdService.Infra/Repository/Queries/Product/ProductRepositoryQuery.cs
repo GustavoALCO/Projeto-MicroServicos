@@ -1,4 +1,6 @@
-﻿using AdsService.Dommain.Interfaces.Product;
+﻿using AdsService.Dommain.Entities;
+using AdsService.Dommain.Enums;
+using AdsService.Dommain.Interfaces.Product;
 using AuthUsers.infra.DbConfig;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
@@ -23,6 +25,30 @@ public class ProductRepositoryQuery : IProductRepositoryQuery
     }
     public async Task<List<Dommain.Entities.Product>> GetAllAsync(int page)
     {
-        return await _context.Products.Take(page).ToListAsync();
+        return await _context.Products.Include(p => p.Images).Take(page).ToListAsync();
+    }
+
+    public async Task<List<Dommain.Entities.Product>> GetAllProductsUser(Guid idUser, int page)
+    {
+        return await _context.Products
+            .Where(p => p.IdUser == idUser)
+            .Include(p => p.Images)
+            .Take(page)
+            .ToListAsync();
+    }
+
+    public Task<List<Dommain.Entities.Product>> GetProductFilter(IQueryable queryable)
+    {
+        return queryable
+            .OfType<Dommain.Entities.Product>()
+            .Include(p => p.Images)
+            .ToListAsync();
+    }
+
+    public Task<IQueryable> GetQueryable()
+    {
+        return Task.FromResult<IQueryable>(_context.Products
+            .Include(p => p.Images)
+            .AsQueryable());
     }
 }

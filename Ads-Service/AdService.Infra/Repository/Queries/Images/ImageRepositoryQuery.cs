@@ -11,11 +11,10 @@ public class ImageRepositoryQuery : IImageRepositoryQuery
     {
         _context = context;
     }
-    public async Task<List<Dommain.Entities.Images>> GetImageByIdProductAsync(Guid ProductID)
+    public async Task<Dommain.Entities.Images> GetImageByIdProductAsync(Guid ProductID)
     {
-        var Images = await _context.Images.Where(i => i.ProductIdProduct == ProductID).ToListAsync();
+        var Images = await _context.Images.FirstOrDefaultAsync(i => i.ProductIdProduct == ProductID);
 
-        return Images;
-            
+        return Images;      
     }
 }

@@ -2,6 +2,6 @@
 
 public enum CategoryType
 {
-    Car,
-    House,
+    Car, // 0
+    House,// 1
 }

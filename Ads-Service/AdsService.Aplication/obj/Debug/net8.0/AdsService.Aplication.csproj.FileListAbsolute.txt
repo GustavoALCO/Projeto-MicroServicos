@@ -29,3 +29,19 @@ C:\Projeto-MicroServicos\Ads-Service\AdsService.Aplication\obj\Debug\net8.0\AdsS
 C:\Projeto-MicroServicos\Ads-Service\AdsService.Aplication\obj\Debug\net8.0\refint\AdsService.Aplication.dll
 C:\Projeto-MicroServicos\Ads-Service\AdsService.Aplication\obj\Debug\net8.0\AdsService.Aplication.pdb
 C:\Projeto-MicroServicos\Ads-Service\AdsService.Aplication\obj\Debug\net8.0\ref\AdsService.Aplication.dll
+D:\Projeto de Microservicos\Projeto-MicroServicos\Ads-Service\AdsService.Aplication\obj\Debug\net8.0\AdsService.Aplication.csproj.AssemblyReference.cache
+D:\Projeto de Microservicos\Projeto-MicroServicos\Ads-Service\AdsService.Aplication\obj\Debug\net8.0\AdsService.Aplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projeto de Microservicos\Projeto-MicroServicos\Ads-Service\AdsService.Aplication\obj\Debug\net8.0\AdsService.Aplication.AssemblyInfoInputs.cache
+D:\Projeto de Microservicos\Projeto-MicroServicos\Ads-Service\AdsService.Aplication\obj\Debug\net8.0\AdsService.Aplication.AssemblyInfo.cs
+D:\Projeto de Microservicos\Projeto-MicroServicos\Ads-Service\AdsService.Aplication\obj\Debug\net8.0\AdsService.Aplication.csproj.CoreCompileInputs.cache
+D:\Projeto de Microservicos\Projeto-MicroServicos\Ads-Service\AdsService.Aplication\obj\Debug\net8.0\AdsService.Aplication.sourcelink.json
+D:\Projeto de Microservicos\Projeto-MicroServicos\Ads-Service\AdsService.Aplication\obj\Debug\net8.0\AdsService.Aplication.dll
+D:\Projeto de Microservicos\Projeto-MicroServicos\Ads-Service\AdsService.Aplication\obj\Debug\net8.0\refint\AdsService.Aplication.dll
+D:\Projeto de Microservicos\Projeto-MicroServicos\Ads-Service\AdsService.Aplication\obj\Debug\net8.0\AdsService.Aplication.pdb
+D:\Projeto de Microservicos\Projeto-MicroServicos\Ads-Service\AdsService.Aplication\bin\Debug\net8.0\AdsService.Aplication.deps.json
+D:\Projeto de Microservicos\Projeto-MicroServicos\Ads-Service\AdsService.Aplication\bin\Debug\net8.0\AdsService.Aplication.dll
+D:\Projeto de Microservicos\Projeto-MicroServicos\Ads-Service\AdsService.Aplication\bin\Debug\net8.0\AdsService.Aplication.pdb
+D:\Projeto de Microservicos\Projeto-MicroServicos\Ads-Service\AdsService.Aplication\bin\Debug\net8.0\AdsService.Dommain.dll
+D:\Projeto de Microservicos\Projeto-MicroServicos\Ads-Service\AdsService.Aplication\bin\Debug\net8.0\AdsService.Dommain.pdb
+D:\Projeto de Microservicos\Projeto-MicroServicos\Ads-Service\AdsService.Aplication\obj\Debug\net8.0\AdsServi.35DC10C5.Up2Date
+D:\Projeto de Microservicos\Projeto-MicroServicos\Ads-Service\AdsService.Aplication\obj\Debug\net8.0\ref\AdsService.Aplication.dll

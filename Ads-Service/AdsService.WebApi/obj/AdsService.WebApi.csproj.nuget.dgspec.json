@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.WebApi\\AdsService.WebApi.csproj": {}
+    "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.WebApi\\AdsService.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Projeto-MicroServicos\\Ads-Service\\AdService.Infra\\AdsService.Infra.csproj": {
+    "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdService.Infra\\AdsService.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projeto-MicroServicos\\Ads-Service\\AdService.Infra\\AdsService.Infra.csproj",
+        "projectUniqueName": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdService.Infra\\AdsService.Infra.csproj",
         "projectName": "AdsService.Infra",
-        "projectPath": "C:\\Projeto-MicroServicos\\Ads-Service\\AdService.Infra\\AdsService.Infra.csproj",
+        "projectPath": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdService.Infra\\AdsService.Infra.csproj",
         "packagesPath": "C:\\Users\\alves\\.nuget\\packages\\",
-        "outputPath": "C:\\Projeto-MicroServicos\\Ads-Service\\AdService.Infra\\obj\\",
+        "outputPath": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdService.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.dommain\\AdsService.Dommain.csproj": {
-                "projectPath": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.dommain\\AdsService.Dommain.csproj"
+              "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.dommain\\AdsService.Dommain.csproj": {
+                "projectPath": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.dommain\\AdsService.Dommain.csproj"
               }
             }
           }
@@ -48,7 +49,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -81,18 +82,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.Aplication\\AdsService.Aplication.csproj": {
+    "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.Aplication\\AdsService.Aplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.Aplication\\AdsService.Aplication.csproj",
+        "projectUniqueName": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.Aplication\\AdsService.Aplication.csproj",
         "projectName": "AdsService.Aplication",
-        "projectPath": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.Aplication\\AdsService.Aplication.csproj",
+        "projectPath": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.Aplication\\AdsService.Aplication.csproj",
         "packagesPath": "C:\\Users\\alves\\.nuget\\packages\\",
-        "outputPath": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.Aplication\\obj\\",
+        "outputPath": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.Aplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -107,14 +108,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.dommain\\AdsService.Dommain.csproj": {
-                "projectPath": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.dommain\\AdsService.Dommain.csproj"
+              "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.dommain\\AdsService.Dommain.csproj": {
+                "projectPath": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.dommain\\AdsService.Dommain.csproj"
               }
             }
           }
@@ -129,7 +131,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -160,18 +162,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.dommain\\AdsService.Dommain.csproj": {
+    "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.dommain\\AdsService.Dommain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.dommain\\AdsService.Dommain.csproj",
+        "projectUniqueName": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.dommain\\AdsService.Dommain.csproj",
         "projectName": "AdsService.Dommain",
-        "projectPath": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.dommain\\AdsService.Dommain.csproj",
+        "projectPath": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.dommain\\AdsService.Dommain.csproj",
         "packagesPath": "C:\\Users\\alves\\.nuget\\packages\\",
-        "outputPath": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.dommain\\obj\\",
+        "outputPath": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.dommain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -186,6 +188,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -204,7 +207,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -225,18 +228,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.WebApi\\AdsService.WebApi.csproj": {
+    "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.WebApi\\AdsService.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.WebApi\\AdsService.WebApi.csproj",
+        "projectUniqueName": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.WebApi\\AdsService.WebApi.csproj",
         "projectName": "AdsService.WebApi",
-        "projectPath": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.WebApi\\AdsService.WebApi.csproj",
+        "projectPath": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.WebApi\\AdsService.WebApi.csproj",
         "packagesPath": "C:\\Users\\alves\\.nuget\\packages\\",
-        "outputPath": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.WebApi\\obj\\",
+        "outputPath": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -251,17 +254,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Projeto-MicroServicos\\Ads-Service\\AdService.Infra\\AdsService.Infra.csproj": {
-                "projectPath": "C:\\Projeto-MicroServicos\\Ads-Service\\AdService.Infra\\AdsService.Infra.csproj"
+              "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdService.Infra\\AdsService.Infra.csproj": {
+                "projectPath": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdService.Infra\\AdsService.Infra.csproj"
               },
-              "C:\\Projeto-MicroServicos\\Ads-Service\\AdsSevice.IOC\\AdsSevice.IOC.csproj": {
-                "projectPath": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsSevice.IOC\\AdsSevice.IOC.csproj"
+              "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsSevice.IOC\\AdsSevice.IOC.csproj": {
+                "projectPath": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsSevice.IOC\\AdsSevice.IOC.csproj"
               }
             }
           }
@@ -276,7 +280,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -306,18 +310,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projeto-MicroServicos\\Ads-Service\\AdsSevice.IOC\\AdsSevice.IOC.csproj": {
+    "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsSevice.IOC\\AdsSevice.IOC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsSevice.IOC\\AdsSevice.IOC.csproj",
+        "projectUniqueName": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsSevice.IOC\\AdsSevice.IOC.csproj",
         "projectName": "AdsSevice.IOC",
-        "projectPath": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsSevice.IOC\\AdsSevice.IOC.csproj",
+        "projectPath": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsSevice.IOC\\AdsSevice.IOC.csproj",
         "packagesPath": "C:\\Users\\alves\\.nuget\\packages\\",
-        "outputPath": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsSevice.IOC\\obj\\",
+        "outputPath": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsSevice.IOC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -332,17 +336,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Projeto-MicroServicos\\Ads-Service\\AdService.Infra\\AdsService.Infra.csproj": {
-                "projectPath": "C:\\Projeto-MicroServicos\\Ads-Service\\AdService.Infra\\AdsService.Infra.csproj"
+              "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdService.Infra\\AdsService.Infra.csproj": {
+                "projectPath": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdService.Infra\\AdsService.Infra.csproj"
               },
-              "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.Aplication\\AdsService.Aplication.csproj": {
-                "projectPath": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.Aplication\\AdsService.Aplication.csproj"
+              "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.Aplication\\AdsService.Aplication.csproj": {
+                "projectPath": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.Aplication\\AdsService.Aplication.csproj"
               }
             }
           }
@@ -357,7 +362,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -396,7 +401,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

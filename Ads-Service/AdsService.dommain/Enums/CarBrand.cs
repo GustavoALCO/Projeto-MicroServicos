@@ -2,49 +2,49 @@
 
 public enum CarBrand
 {
-    Acura,
-    AlfaRomeo,
-    Audi,
-    BMW,
-    Buick,
-    CaoaChery,
-    Cadillac,
-    Chery,
-    Citroen,
-    Chrysler,
-    Dacia,
-    Dodge,
-    Ferrari,
-    Fiat,
-    Ford,
-    Haval,
-    Honda,
-    Hyundai,
-    Infiniti,
-    Iveco,
-    JacMotors,
-    Jeep,
-    Kia,
-    LandRover,
-    Lamborghini,
-    Lincoln,
-    Lifan,
-    Maserati,
-    MercedesBenz,
-    Mini,
-    Mitsubishi,
-    Nissan,
-    Peugeot,
-    Porsche,
-    Renault,
-    Seat,
-    Skoda,
-    Smart,
-    Subaru,
-    Tesla,
-    Toyota,
-    Troller,
-    Volkswagen,
-    Volvo,
-    Zotye
+    Acura, // 0
+    AlfaRomeo, // 1
+    Audi, // 2
+    BMW, // 3
+    Buick, // 4
+    CaoaChery, // 5
+    Cadillac, // 6
+    Chery, // 7
+    Citroen, // 8
+    Chrysler, // 9
+    Dacia, // 10
+    Dodge, // 11
+    Ferrari, // 12
+    Fiat, // 13
+    Ford, // 14
+    Haval, // 15
+    Honda, // 16
+    Hyundai, // 17
+    Infiniti, // 18
+    Iveco, // 19
+    JacMotors,  // 20
+    Jeep, // 21
+    Kia, // 22
+    LandRover, // 23
+    Lamborghini, // 24
+    Lincoln, // 25
+    Lifan, // 26
+    Maserati, // 27
+    MercedesBenz, // 28
+    Mini, // 29
+    Mitsubishi, // 30
+    Nissan, // 31
+    Peugeot, // 32
+    Porsche, // 33
+    Renault, // 34
+    Seat, // 35
+    Skoda, // 36
+    Smart, // 37
+    Subaru, // 38
+    Tesla, // 39
+    Toyota, // 40
+    Troller, // 41
+    Volkswagen, // 42
+    Volvo, // 43
+    Zotye // 44
 }

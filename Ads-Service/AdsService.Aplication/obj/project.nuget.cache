@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "doxx+0XIV4E=",
+  "dgSpecHash": "kRXxJGFkj9Q=",
   "success": true,
-  "projectFilePath": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.Aplication\\AdsService.Aplication.csproj",
+  "projectFilePath": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.Aplication\\AdsService.Aplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alves\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512",
     "C:\\Users\\alves\\.nuget\\packages\\mediatr\\13.0.0\\mediatr.13.0.0.nupkg.sha512",

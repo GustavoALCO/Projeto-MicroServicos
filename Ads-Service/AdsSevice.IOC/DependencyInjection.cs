@@ -1,4 +1,11 @@
 ﻿using AdsService.Aplication.Settings;
+using AdsService.Dommain.Interfaces.Image;
+using AdsService.Dommain.Interfaces.Images;
+using AdsService.Dommain.Interfaces.Product;
+using AdsService.Infra.Repository.Commands.Images;
+using AdsService.Infra.Repository.Commands.Product;
+using AdsService.Infra.Repository.Queries.Images;
+using AdsService.Infra.Repository.Queries.Product;
 using AuthUsers.infra.DbConfig;
 using FluentValidation;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -36,21 +43,29 @@ public static class DependencyInjection
     public static IServiceCollection AddInterfacesValidators(this IServiceCollection services)
     {
 
+        services.AddScoped<IValidator<AdsService.Aplication.Commands.Product.CreateProductCommands>, AdsService.Aplication.Validations.Products.CreateProductValidator >();
 
+        services.AddScoped<IValidator<AdsService.Aplication.Commands.Image.PathImagesCommands>, AdsService.Aplication.Validations.Image.PathImagesValidator>();
 
         return services;
     }
 
     public static IServiceCollection AddInterfaces(this IServiceCollection services)
     {
+        services.AddScoped<IImageRepositoryCommands, ImageRepositoryCommands>();
+        services.AddScoped<IImageRepositoryQuery, ImageRepositoryQuery>();
 
+
+        services.AddScoped<IProductRepositoryQuery, ProductRepositoryQuery>();
+        services.AddScoped<IProductRepositoryCommands, ProductRepositoryCommands>();
 
         return services;
     }
 
     public static IServiceCollection AddInterfacesServices(this IServiceCollection services)
     {
-
+        services.AddScoped<AdsService.Aplication.Interfaces.IConvertImagesByte, AdsService.Aplication.Services.ConvertImagesByte>();
+        services.AddScoped<AdsService.Aplication.Interfaces.IValidateBase64, AdsService.Aplication.Services.ValidateBase64>();
 
         return services;
     }

@@ -10,5 +10,5 @@ public class Images
 
     public string ContentType { get; set; } = string.Empty; // Ex: image/png
 
-    public required byte[] Data { get; set; } // Aqui vai a imagem binária
+    public required List<byte[]> Data { get; set; } // Aqui vai a imagem binária
 }

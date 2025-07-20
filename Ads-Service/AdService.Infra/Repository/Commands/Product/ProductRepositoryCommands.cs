@@ -41,4 +41,5 @@ public class ProductRepositoryCommands : IProductRepositoryCommands
 
         _logger.LogInformation($"Product com ID {product.IdProduct} Excluido com Sucesso.");
     }
+
 }

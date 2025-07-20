@@ -2,19 +2,18 @@
 
 public enum Color
 {
-    Black,
-    White,
-    Silver,
-    Gray,
-    Red,
-    Blue,
-    Green,
-    Yellow,
-    Brown,
-    Orange,
-    Gold,
-    Beige,
-    Violet,
-    Pink
+    Preto,
+    Branco,
+    Prata,
+    Cinza,
+    Vermelho,
+    Azul,
+    Verde,
+    Amarelo,
+    Marrom,
+    Laranja,
+    Roxo,
+    Rosa,
+    Outros
 }
 

@@ -1,30 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Projeto-MicroServicos\\Ads-Service\\",
+  "WorkspaceRootPath": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\projeto-microservicos\\ads-service\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{8CD8FA9A-FF06-4BA5-935F-CA9D53718206}|AdsService.WebApi\\AdsService.WebApi.csproj|d:\\projeto de microservicos\\projeto-microservicos\\ads-service\\adsservice.webapi\\controllers\\productcontrolller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD8FA9A-FF06-4BA5-935F-CA9D53718206}|AdsService.WebApi\\AdsService.WebApi.csproj|solutionrelative:adsservice.webapi\\controllers\\productcontrolller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A6CCD42-1E9D-43DE-8434-0DA826047550}|AdService.Infra\\AdsService.Infra.csproj|c:\\projeto-microservicos\\ads-service\\adservice.infra\\dbconfigs\\dbconfigfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A6CCD42-1E9D-43DE-8434-0DA826047550}|AdService.Infra\\AdsService.Infra.csproj|solutionrelative:adservice.infra\\dbconfigs\\dbconfigfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CD8FA9A-FF06-4BA5-935F-CA9D53718206}|AdsService.WebApi\\AdsService.WebApi.csproj|c:\\projeto-microservicos\\ads-service\\adsservice.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CD8FA9A-FF06-4BA5-935F-CA9D53718206}|AdsService.WebApi\\AdsService.WebApi.csproj|solutionrelative:adsservice.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CD8FA9A-FF06-4BA5-935F-CA9D53718206}|AdsService.WebApi\\AdsService.WebApi.csproj|c:\\projeto-microservicos\\ads-service\\adsservice.webapi\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8CD8FA9A-FF06-4BA5-935F-CA9D53718206}|AdsService.WebApi\\AdsService.WebApi.csproj|d:\\projeto de microservicos\\projeto-microservicos\\ads-service\\adsservice.webapi\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CD8FA9A-FF06-4BA5-935F-CA9D53718206}|AdsService.WebApi\\AdsService.WebApi.csproj|solutionrelative:adsservice.webapi\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CD8FA9A-FF06-4BA5-935F-CA9D53718206}|AdsService.WebApi\\AdsService.WebApi.csproj|c:\\projeto-microservicos\\ads-service\\adsservice.webapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{8CD8FA9A-FF06-4BA5-935F-CA9D53718206}|AdsService.WebApi\\AdsService.WebApi.csproj|solutionrelative:adsservice.webapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8D48271-C9F4-40B6-B50F-A4533010CAD5}|AdsSevice.IOC\\AdsSevice.IOC.csproj|c:\\projeto-microservicos\\ads-service\\adssevice.ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8D48271-C9F4-40B6-B50F-A4533010CAD5}|AdsSevice.IOC\\AdsSevice.IOC.csproj|solutionrelative:adssevice.ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,84 +22,53 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\Projeto-MicroServicos\\Ads-Service\\docker-compose.yml",
-              "RelativeDocumentMoniker": "docker-compose.yml",
-              "ToolTip": "C:\\Projeto-MicroServicos\\Ads-Service\\docker-compose.yml",
-              "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-07-15T15:40:39.773Z",
+              "DocumentIndex": 1,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.WebApi\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "AdsService.WebApi\\Controllers\\TestController.cs",
+              "ToolTip": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.WebApi\\Controllers\\TestController.cs",
+              "RelativeToolTip": "AdsService.WebApi\\Controllers\\TestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T15:11:01.401Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "62c2ba23-bcef-45c0-a698-8f490cdc2062",
+        "Display": 1,
+        "X": 1031,
+        "Y": 150,
+        "Width": 1642,
+        "Height": 1000,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TestController.cs",
-              "DocumentMoniker": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.WebApi\\Controllers\\TestController.cs",
-              "RelativeDocumentMoniker": "AdsService.WebApi\\Controllers\\TestController.cs",
-              "ToolTip": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.WebApi\\Controllers\\TestController.cs",
-              "RelativeToolTip": "AdsService.WebApi\\Controllers\\TestController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ProductControlller.cs",
+              "DocumentMoniker": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.WebApi\\Controllers\\ProductControlller.cs",
+              "RelativeDocumentMoniker": "AdsService.WebApi\\Controllers\\ProductControlller.cs",
+              "ToolTip": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.WebApi\\Controllers\\ProductControlller.cs",
+              "RelativeToolTip": "AdsService.WebApi\\Controllers\\ProductControlller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAABlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T15:32:14.392Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.WebApi\\Dockerfile",
-              "RelativeDocumentMoniker": "AdsService.WebApi\\Dockerfile",
-              "ToolTip": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.WebApi\\Dockerfile",
-              "RelativeToolTip": "AdsService.WebApi\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-07-15T15:27:44.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsSevice.IOC\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "AdsSevice.IOC\\DependencyInjection.cs",
-              "ToolTip": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsSevice.IOC\\DependencyInjection.cs",
-              "RelativeToolTip": "AdsSevice.IOC\\DependencyInjection.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAYwB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T15:24:25.214Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "AdsService.WebApi\\Program.cs",
-              "ToolTip": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.WebApi\\Program.cs",
-              "RelativeToolTip": "AdsService.WebApi\\Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwDMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T15:24:16.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DbConfigFactory.cs",
-              "DocumentMoniker": "C:\\Projeto-MicroServicos\\Ads-Service\\AdService.Infra\\DbConfigs\\DbConfigFactory.cs",
-              "RelativeDocumentMoniker": "AdService.Infra\\DbConfigs\\DbConfigFactory.cs",
-              "ToolTip": "C:\\Projeto-MicroServicos\\Ads-Service\\AdService.Infra\\DbConfigs\\DbConfigFactory.cs",
-              "RelativeToolTip": "AdService.Infra\\DbConfigs\\DbConfigFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T15:00:10.937Z",
+              "WhenOpened": "2025-07-20T15:04:02.384Z",
               "EditorCaption": ""
             }
           ]

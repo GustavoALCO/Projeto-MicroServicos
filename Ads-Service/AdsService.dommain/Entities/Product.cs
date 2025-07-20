@@ -9,23 +9,19 @@ public class Product
 
     public required Guid IdUser { get; set; }
 
-    [MaxLength(100)]
     public required string Title { get; set; }
 
-    [MaxLength(200)]
-    [MinLength(20)]
     public required string Description { get; set; }
 
-    [MaxLength (2)]
-    [MinLength(2)]
     public required string State { get; set; }
 
-    [MinLength(3)]
     public required string City { get; set; }
 
+    public required string ZipCode { get; set; }
+
+    public required bool IsValid { get; set; }
+
     public List<Images> Images { get; set; }    
-
-    // Mostra todos as entidades de categorias
+    
     public Category Category { get; set; }
-
 }
