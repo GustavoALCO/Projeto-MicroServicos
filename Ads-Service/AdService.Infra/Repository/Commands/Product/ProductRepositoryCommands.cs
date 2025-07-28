@@ -22,7 +22,6 @@ public class ProductRepositoryCommands : IProductRepositoryCommands
 
         await _context.SaveChangesAsync();
 
-        _logger.LogInformation($"Product criados com sucesso.");
     }
     public async Task UpdateAsync(Dommain.Entities.Product product)
     {

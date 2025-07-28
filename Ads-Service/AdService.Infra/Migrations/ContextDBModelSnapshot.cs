@@ -40,6 +40,9 @@ namespace AdsService.Infra.Migrations
                     b.Property<Guid>("IdUser")
                         .HasColumnType("uuid");
 
+                    b.Property<bool>("IsValid")
+                        .HasColumnType("boolean");
+
                     b.Property<string>("State")
                         .IsRequired()
                         .HasColumnType("text");
@@ -120,7 +123,7 @@ namespace AdsService.Infra.Migrations
                                     b2.Property<Guid>("CategoryProductIdProduct")
                                         .HasColumnType("uuid");
 
-                                    b2.Property<int?>("Beathroom")
+                                    b2.Property<int?>("Bathroom")
                                         .HasColumnType("integer");
 
                                     b2.Property<int?>("Bedroom")
@@ -132,8 +135,8 @@ namespace AdsService.Infra.Migrations
                                     b2.Property<string>("House")
                                         .HasColumnType("text");
 
-                                    b2.Property<string>("ZIPCode")
-                                        .HasColumnType("text");
+                                    b2.Property<int>("SquareMeters")
+                                        .HasColumnType("integer");
 
                                     b2.HasKey("CategoryProductIdProduct");
 

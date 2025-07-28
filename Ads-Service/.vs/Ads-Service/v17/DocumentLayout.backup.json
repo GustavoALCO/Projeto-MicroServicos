@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8CD8FA9A-FF06-4BA5-935F-CA9D53718206}|AdsService.WebApi\\AdsService.WebApi.csproj|d:\\projeto de microservicos\\projeto-microservicos\\ads-service\\adsservice.webapi\\controllers\\productcontrolller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CD8FA9A-FF06-4BA5-935F-CA9D53718206}|AdsService.WebApi\\AdsService.WebApi.csproj|solutionrelative:adsservice.webapi\\controllers\\productcontrolller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CD8FA9A-FF06-4BA5-935F-CA9D53718206}|AdsService.WebApi\\AdsService.WebApi.csproj|d:\\projeto de microservicos\\projeto-microservicos\\ads-service\\adsservice.webapi\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CD8FA9A-FF06-4BA5-935F-CA9D53718206}|AdsService.WebApi\\AdsService.WebApi.csproj|solutionrelative:adsservice.webapi\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,46 +14,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TestController.cs",
-              "DocumentMoniker": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.WebApi\\Controllers\\TestController.cs",
-              "RelativeDocumentMoniker": "AdsService.WebApi\\Controllers\\TestController.cs",
-              "ToolTip": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.WebApi\\Controllers\\TestController.cs",
-              "RelativeToolTip": "AdsService.WebApi\\Controllers\\TestController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T15:11:01.401Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "62c2ba23-bcef-45c0-a698-8f490cdc2062",
-        "Display": 1,
-        "X": 1031,
-        "Y": 150,
-        "Width": 1642,
-        "Height": 1000,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -66,9 +28,9 @@
               "RelativeDocumentMoniker": "AdsService.WebApi\\Controllers\\ProductControlller.cs",
               "ToolTip": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.WebApi\\Controllers\\ProductControlller.cs",
               "RelativeToolTip": "AdsService.WebApi\\Controllers\\ProductControlller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAABlAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAcwHsAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T15:04:02.384Z",
+              "WhenOpened": "2025-07-28T10:26:37.561Z",
               "EditorCaption": ""
             }
           ]

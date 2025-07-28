@@ -1,0 +1,115 @@
+@import '../../../assets/Colors/Colors.scss';
+
+:host{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    border-bottom: solid 2px $Cor-Principal;
+    background-color: $Cor-Background;
+
+    .left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80%;
+        margin-left: 30px;
+        width: 150px; 
+        left: 0;
+        img{
+            height: 130%;
+            width: auto;
+        }
+    }
+
+    .center{
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+        input{
+            background-color: $Cor-Secundaria;
+            border-bottom-left-radius: 5px;
+            border-top-left-radius: 5px;
+            border: solid 2px $Cor-Principal;
+            height: 50px;
+            width: 688px;
+            font-size: large; 
+            padding-left: 10px;
+            color: $Cor-Principal;
+            font-weight: bold;
+            box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.267);
+        }
+        input:focus{
+            outline: none;
+        }
+        input::placeholder{
+            color: $Cor-Principal;
+            
+            font-size: larger;
+            
+        }
+        button{
+            display: flex;
+            border-bottom-right-radius: 5px;
+            border-top-right-radius: 5px;
+            border: solid 2px $Cor-Principal;
+            background-color: $Cor-Secundaria;
+            height: 50px;
+            width: 90px;
+            align-items: center;
+            justify-content: center;
+            img{
+                height: 50px;
+                width: 50px;
+            }
+            box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.267);
+        }
+        button:hover{
+            cursor: pointer;
+        }
+        button:active{
+            position: relative;
+            
+            border-top: solid 3px $Cor-Principal;
+            border-right: solid 3px $Cor-Principal;
+            border-bottom: solid 3px $Cor-Principal;
+        }
+    }
+    .right{
+        display: flex;
+        align-items: center;
+        
+        height: 80%;
+        margin-right: 30px;
+
+        a{
+            color: $Cor-Principal;
+            font-weight: bold;
+            font-size: large;
+            margin-right: 20px;
+            text-decoration: none;
+        }
+        a:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        button{
+            background-color: $Cor-Principal;
+            height: 40px;
+            width: 70px;
+            color: $Cor-Secundaria;
+            font-weight: bold;
+            border-radius: 5px;
+            box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.267);
+            font-size: medium;
+        }
+        button:hover{
+            cursor: pointer;
+        }
+    }
+}

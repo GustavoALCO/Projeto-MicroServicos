@@ -24,6 +24,7 @@ namespace AdsService.Infra.Migrations
                     State = table.Column<string>(type: "text", nullable: false),
                     City = table.Column<string>(type: "text", nullable: false),
                     ZipCode = table.Column<string>(type: "text", nullable: false),
+                    IsValid = table.Column<bool>(type: "boolean", nullable: false),
                     Category_CategoryType = table.Column<string>(type: "text", nullable: false),
                     Category_Car_CarBrand = table.Column<string>(type: "text", nullable: true),
                     Category_Car_Model = table.Column<string>(type: "text", nullable: true),
@@ -35,9 +36,9 @@ namespace AdsService.Infra.Migrations
                     Category_Car_Gearbox = table.Column<bool>(type: "boolean", nullable: true),
                     Category_Car_Color = table.Column<string>(type: "text", nullable: true),
                     Category_House_House = table.Column<string>(type: "text", nullable: true),
-                    Category_House_ZIPCode = table.Column<string>(type: "text", nullable: true),
+                    Category_House_SquareMeters = table.Column<int>(type: "integer", nullable: true),
                     Category_House_Bedroom = table.Column<int>(type: "integer", nullable: true),
-                    Category_House_Beathroom = table.Column<int>(type: "integer", nullable: true),
+                    Category_House_Bathroom = table.Column<int>(type: "integer", nullable: true),
                     Category_House_CarSpace = table.Column<int>(type: "integer", nullable: true)
                 },
                 constraints: table =>

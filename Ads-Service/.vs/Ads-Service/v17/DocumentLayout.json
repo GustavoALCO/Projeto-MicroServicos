@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8CD8FA9A-FF06-4BA5-935F-CA9D53718206}|AdsService.WebApi\\AdsService.WebApi.csproj|d:\\projeto de microservicos\\projeto-microservicos\\ads-service\\adsservice.webapi\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CD8FA9A-FF06-4BA5-935F-CA9D53718206}|AdsService.WebApi\\AdsService.WebApi.csproj|solutionrelative:adsservice.webapi\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8CD8FA9A-FF06-4BA5-935F-CA9D53718206}|AdsService.WebApi\\AdsService.WebApi.csproj|d:\\projeto de microservicos\\projeto-microservicos\\ads-service\\adsservice.webapi\\controllers\\productcontrolller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD8FA9A-FF06-4BA5-935F-CA9D53718206}|AdsService.WebApi\\AdsService.WebApi.csproj|solutionrelative:adsservice.webapi\\controllers\\productcontrolller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TestController.cs",
-              "DocumentMoniker": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.WebApi\\Controllers\\TestController.cs",
-              "RelativeDocumentMoniker": "AdsService.WebApi\\Controllers\\TestController.cs",
-              "ToolTip": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.WebApi\\Controllers\\TestController.cs",
-              "RelativeToolTip": "AdsService.WebApi\\Controllers\\TestController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ProductControlller.cs",
+              "DocumentMoniker": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.WebApi\\Controllers\\ProductControlller.cs",
+              "RelativeDocumentMoniker": "AdsService.WebApi\\Controllers\\ProductControlller.cs",
+              "ToolTip": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.WebApi\\Controllers\\ProductControlller.cs",
+              "RelativeToolTip": "AdsService.WebApi\\Controllers\\ProductControlller.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAuwG8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T15:11:01.401Z",
+              "WhenOpened": "2025-07-28T10:26:37.561Z",
               "EditorCaption": ""
             }
           ]

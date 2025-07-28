@@ -3,6 +3,7 @@ using AdsService.Aplication.Commands.Product;
 using AdsService.Aplication.Query;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 
 namespace AdsService.WebApi.Controllers;
 
@@ -27,6 +28,8 @@ public class ProductControlller : ControllerBase
         try
         {
             var products = await _mediator.Send(getAllProducts);
+
+            _logger.LogInformation($"{products}");
 
             return Ok(products);
         }
@@ -89,6 +92,36 @@ public class ProductControlller : ControllerBase
         {
             await _mediator.Send(pathProducts);
             _logger.LogInformation("Produto atualizado com sucesso: {Title}", pathProducts.Title);
+            return Ok("Produto atualizado com sucesso");
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, $"{ex.Message}");
+        }
+    }
+
+    [HttpPatch("Deactivate")]
+    public async Task<IActionResult> DeactivateProduct([FromQuery] DeactivateProductsCommands deactivateProducts)
+    {
+        try
+        {
+            await _mediator.Send(deactivateProducts);
+            
+            return Ok("Produto atualizado com sucesso");
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, $"{ex.Message}");
+        }
+    }
+
+    [HttpPatch("Activate")]
+    public async Task<IActionResult> UpdateProduct([FromQuery] ActivateProductsCommands activateProducts)
+    {
+        try
+        {
+            await _mediator.Send(activateProducts);
+           
             return Ok("Produto atualizado com sucesso");
         }
         catch (Exception ex)
