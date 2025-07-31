@@ -14,5 +14,7 @@ public class PathProductsCommands : IRequest<Unit>
 
     public bool isValid { get; set; }   
 
+    public bool Boost { get; set; }
+
     public Category Category { get; set; }
 }

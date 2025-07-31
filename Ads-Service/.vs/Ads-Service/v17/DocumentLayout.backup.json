@@ -14,12 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,10 +24,14 @@
               "RelativeDocumentMoniker": "AdsService.WebApi\\Controllers\\ProductControlller.cs",
               "ToolTip": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.WebApi\\Controllers\\ProductControlller.cs",
               "RelativeToolTip": "AdsService.WebApi\\Controllers\\ProductControlller.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAcwHsAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAwJsAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T10:26:37.561Z",
+              "WhenOpened": "2025-07-31T16:53:01.842Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }

@@ -29,6 +29,9 @@ namespace AdsService.Infra.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
+                    b.Property<bool>("Boost")
+                        .HasColumnType("boolean");
+
                     b.Property<string>("City")
                         .IsRequired()
                         .HasColumnType("text");

@@ -35,6 +35,7 @@ public class PathProductsHandler :IRequestHandler<PathProductsCommands, Unit>
         product.Description = request.Description ?? product.Description;
         product.Category = request.Category ?? product.Category;
         product.IsValid = request.isValid;
+        product.Boost = request.Boost;
 
         _logger.LogInformation("Atualizando Produto: {Product}", product);
 

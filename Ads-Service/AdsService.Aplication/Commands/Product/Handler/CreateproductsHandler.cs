@@ -71,7 +71,8 @@ public class CreateproductsHandler : IRequestHandler<CreateProductCommands, Unit
             City = request.City,
             ZipCode = request.ZipCode,
             IsValid = true, 
-            Category = request.Category
+            Category = request.Category,
+            Boost = request.Boost
         };
 
         _logger.LogInformation("Criando Produto: {Product}", product);

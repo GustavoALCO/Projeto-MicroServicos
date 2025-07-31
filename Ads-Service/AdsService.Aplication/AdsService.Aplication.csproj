@@ -15,8 +15,4 @@
     <ProjectReference Include="..\AdsService.dommain\AdsService.Dommain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="DTOs\" />
-  </ItemGroup>
-
 </Project>

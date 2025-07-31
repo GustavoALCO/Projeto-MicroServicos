@@ -2,11 +2,11 @@
 
 public enum Fuel
 {
-    Gasolina,
-    Alcool,
-    Flex,
-    Diesel,
-    Eletrico,
-    Hybrido
+    Gasolina, //0 
+    Alcool, //1
+    Flex, //2
+    Diesel, //3
+    Eletrico, //4
+    Hybrido //5
 }
 

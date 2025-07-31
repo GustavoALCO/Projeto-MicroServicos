@@ -21,6 +21,8 @@ public class Product
 
     public required bool IsValid { get; set; }
 
+    public required bool Boost { get; set; }
+
     public List<Images> Images { get; set; }    
     
     public Category Category { get; set; }

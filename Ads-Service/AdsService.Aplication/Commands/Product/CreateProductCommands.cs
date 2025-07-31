@@ -21,6 +21,8 @@ public class CreateProductCommands : IRequest<Unit>
 
     public string ContentType { get; set; } = string.Empty;
 
+    public bool Boost { get; set; } = false;
+
     public List<string> Data { get; set; }
 
     public Category Category { get; set; }

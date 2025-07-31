@@ -2,10 +2,12 @@
 using AdsService.Aplication.Commands.Product;
 using AdsService.Aplication.Query;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
 namespace AdsService.WebApi.Controllers;
+
 
 [ApiController]
 [Route("[controller]")]
@@ -67,6 +69,7 @@ public class ProductControlller : ControllerBase
         }
     }
 
+    [Authorize]
     [HttpPost]
     public async Task<IActionResult> PostProducts([FromBody]
                                             CreateProductCommands createProduct)
@@ -85,6 +88,7 @@ public class ProductControlller : ControllerBase
         }
     }
 
+    [Authorize]
     [HttpPatch("Products")]
     public async Task<IActionResult> UpdateProduct([FromBody] PathProductsCommands pathProducts)
     {
@@ -100,6 +104,7 @@ public class ProductControlller : ControllerBase
         }
     }
 
+    [Authorize]
     [HttpPatch("Deactivate")]
     public async Task<IActionResult> DeactivateProduct([FromQuery] DeactivateProductsCommands deactivateProducts)
     {
@@ -115,6 +120,7 @@ public class ProductControlller : ControllerBase
         }
     }
 
+    [Authorize]
     [HttpPatch("Activate")]
     public async Task<IActionResult> UpdateProduct([FromQuery] ActivateProductsCommands activateProducts)
     {
@@ -130,6 +136,7 @@ public class ProductControlller : ControllerBase
         }
     }
 
+    [Authorize]
     [HttpPatch("Images")]
     public async Task<IActionResult> UpdateImages([FromBody] PathImagesCommands pathImages)
     {
@@ -145,6 +152,7 @@ public class ProductControlller : ControllerBase
         }
     }
 
+    [Authorize(Roles = "Admin")]
     [HttpDelete]
     public async Task<IActionResult> DeleteProduct([FromQuery] DeleteProductsCommands deleteProducts)
     {

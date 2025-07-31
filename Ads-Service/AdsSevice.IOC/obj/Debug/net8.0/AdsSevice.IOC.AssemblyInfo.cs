@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AdsSevice.IOC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62c134ca53aed9a7979dfc8ceb925121a0db5650")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6cc0c22d1b067a63bba2b11bcf165b07581696cb")]
 [assembly: System.Reflection.AssemblyProductAttribute("AdsSevice.IOC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AdsSevice.IOC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

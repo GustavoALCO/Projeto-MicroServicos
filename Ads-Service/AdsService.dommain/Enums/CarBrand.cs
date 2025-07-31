@@ -46,5 +46,6 @@ public enum CarBrand
     Troller, // 41
     Volkswagen, // 42
     Volvo, // 43
-    Zotye // 44
+    Zotye, // 44
+    Outros // 45
 }

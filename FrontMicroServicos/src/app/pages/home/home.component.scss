@@ -1,0 +1,12 @@
+@import "../../../assets/Colors/Colors.scss";
+
+:host{
+    display: flex;
+    flex-direction: column;
+    background-color: $Cor-Background;
+    height: 100%;
+    app-card{
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+}
