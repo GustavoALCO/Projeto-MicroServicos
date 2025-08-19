@@ -55,6 +55,20 @@ public class ProductControlller : ControllerBase
         }
     }
 
+    [HttpGet("Filtros")]    
+    public async Task<IActionResult> GetProductsByFilters([FromQuery] GetProductsFilterQuery getProductsByFilters)
+    {
+        try
+        {
+            var products = await _mediator.Send(getProductsByFilters);
+            return Ok(products);
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, $"{ex.Message}");
+        }
+    }
+
     [HttpGet("AnunciosUser")]
     public async Task<IActionResult> GetAllPrductsUser([FromQuery] GetByIdAsyncQuery getByIdAsync)
     {

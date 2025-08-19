@@ -45,10 +45,9 @@ public class ProductRepositoryQuery : IProductRepositoryQuery
             .ToListAsync();
     }
 
-    public Task<IQueryable> GetQueryable()
+    public IQueryable<Dommain.Entities.Product> GetQueryable()
     {
-        return Task.FromResult<IQueryable>(_context.Products
-            .Include(p => p.Images)
-            .AsQueryable());
+        return _context.Products.AsQueryable();
+            
     }
 }

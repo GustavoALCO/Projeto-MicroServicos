@@ -10,5 +10,5 @@ public interface IProductRepositoryQuery
 
     Task<List<Entities.Product>> GetProductFilter(IQueryable queryable);
 
-    Task<IQueryable> GetQueryable();
+    IQueryable<Entities.Product> GetQueryable();
 }
