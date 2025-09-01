@@ -3,17 +3,17 @@ import { Component, Input } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 
 @Component({
-  selector: 'app-login',
+  selector: 'app-carrosel-photos',
   standalone: true,
   imports: [CommonModule,
-    ReactiveFormsModule
-  ],
-  templateUrl: './login.component.html',
-  styleUrl: './login.component.scss'
+    ReactiveFormsModule],
+  templateUrl: './carrosel-photos.component.html',
+  styleUrl: './carrosel-photos.component.scss'
 })
-export class LoginComponent {
+export class CarroselPhotosComponent {
 @Input()
-images:string[] = []
+images:string[] = 
+[]
 
 onFilesSelected(event: any) {
   const files: FileList = event.target.files;

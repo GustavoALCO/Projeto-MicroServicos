@@ -1,0 +1,19 @@
+<div id="multiItemCarouselHouses" class="carousel slide">
+  <div class="carousel-inner">
+    <div *ngFor="let group of groupedItems; let i = index" class="carousel-item" [class.active]="i === 0">
+      <div class="d-flex justify-content-center">
+        <div *ngFor="let item of group" class="m-2">
+          <app-card-house></app-card-house>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <button class="carousel-control-prev" type="button" data-bs-target="#multiItemCarouselHouses" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  
+  <button class="carousel-control-next" type="button" data-bs-target="#multiItemCarouselHouses" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>

@@ -1,0 +1,44 @@
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo escuro transparente */
+    border-radius: 5px; /* Deixa arredondado */
+}
+
+/* Faz a seta ficar mais visível ao passar o mouse */
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.6); /* Fundo totalmente preto no hover */
+}
+
+/* Ajusta a posição das setas */
+.carousel-control-prev {
+    left: -150px; /* Move um pouco para fora */
+}
+
+.carousel-control-next {
+    right: -150px; /* Move um pouco para fora */
+}
+
+@media (max-width: 1440px) {
+
+    .carousel-control-prev {
+        left: -115px; /* Move um pouco para fora */
+    }
+    
+    .carousel-control-next {
+        right: -115px; /* Move um pouco para fora */
+    }
+}
+
+@media (max-width: 1370px) {
+
+    .carousel-control-prev {
+        left: -110px; /* Move um pouco para fora */
+    }
+    
+    .carousel-control-next {
+        right: -110px; /* Move um pouco para fora */
+    }
+}

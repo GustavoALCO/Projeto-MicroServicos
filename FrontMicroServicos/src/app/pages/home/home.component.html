@@ -1,3 +1,16 @@
 <app-header></app-header>
-<app-card></app-card>
-<app-card-house></app-card-house>
+<div class="carrosel">
+    <app-carrosel-photos [images]="image"></app-carrosel-photos>
+</div>
+
+<div class="carros">
+    <h2 style="font-weight: bold;">Carros</h2>
+    <div class="divisoria">
+    <app-carrosel-ads></app-carrosel-ads>
+</div>
+
+<div class="casas">
+    <h2 style="font-weight: bold;">Casas</h2>
+    <div class="divisoria">
+    <app-carrosel-ads-house></app-carrosel-ads-house>
+</div>
