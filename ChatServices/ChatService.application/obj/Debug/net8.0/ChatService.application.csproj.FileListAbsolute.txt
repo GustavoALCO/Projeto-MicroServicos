@@ -1,0 +1,16 @@
+C:\Projeto-MicroServicos\ChatServices\ChatService.application\bin\Debug\net8.0\ChatService.application.deps.json
+C:\Projeto-MicroServicos\ChatServices\ChatService.application\bin\Debug\net8.0\ChatService.application.dll
+C:\Projeto-MicroServicos\ChatServices\ChatService.application\bin\Debug\net8.0\ChatService.application.pdb
+C:\Projeto-MicroServicos\ChatServices\ChatService.application\bin\Debug\net8.0\ChatService.dommain.dll
+C:\Projeto-MicroServicos\ChatServices\ChatService.application\bin\Debug\net8.0\ChatService.dommain.pdb
+C:\Projeto-MicroServicos\ChatServices\ChatService.application\obj\Debug\net8.0\ChatService.application.csproj.AssemblyReference.cache
+C:\Projeto-MicroServicos\ChatServices\ChatService.application\obj\Debug\net8.0\ChatService.application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projeto-MicroServicos\ChatServices\ChatService.application\obj\Debug\net8.0\ChatService.application.AssemblyInfoInputs.cache
+C:\Projeto-MicroServicos\ChatServices\ChatService.application\obj\Debug\net8.0\ChatService.application.AssemblyInfo.cs
+C:\Projeto-MicroServicos\ChatServices\ChatService.application\obj\Debug\net8.0\ChatService.application.csproj.CoreCompileInputs.cache
+C:\Projeto-MicroServicos\ChatServices\ChatService.application\obj\Debug\net8.0\ChatService.application.sourcelink.json
+C:\Projeto-MicroServicos\ChatServices\ChatService.application\obj\Debug\net8.0\ChatServ.588A31AC.Up2Date
+C:\Projeto-MicroServicos\ChatServices\ChatService.application\obj\Debug\net8.0\ChatService.application.dll
+C:\Projeto-MicroServicos\ChatServices\ChatService.application\obj\Debug\net8.0\refint\ChatService.application.dll
+C:\Projeto-MicroServicos\ChatServices\ChatService.application\obj\Debug\net8.0\ChatService.application.pdb
+C:\Projeto-MicroServicos\ChatServices\ChatService.application\obj\Debug\net8.0\ref\ChatService.application.dll

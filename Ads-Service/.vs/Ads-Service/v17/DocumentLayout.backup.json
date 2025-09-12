@@ -1,22 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\",
+  "WorkspaceRootPath": "C:\\Projeto-MicroServicos\\Ads-Service\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8CD8FA9A-FF06-4BA5-935F-CA9D53718206}|AdsService.WebApi\\AdsService.WebApi.csproj|d:\\projeto de microservicos\\projeto-microservicos\\ads-service\\adsservice.webapi\\controllers\\productcontrolller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CD8FA9A-FF06-4BA5-935F-CA9D53718206}|AdsService.WebApi\\AdsService.WebApi.csproj|solutionrelative:adsservice.webapi\\controllers\\productcontrolller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7A6CCD42-1E9D-43DE-8434-0DA826047550}|AdService.Infra\\AdsService.Infra.csproj|c:\\projeto-microservicos\\ads-service\\adservice.infra\\dbconfigs\\contextdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A6CCD42-1E9D-43DE-8434-0DA826047550}|AdService.Infra\\AdsService.Infra.csproj|solutionrelative:adservice.infra\\dbconfigs\\contextdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0C17B40-C47B-4F38-AAAE-F392485BB754}|AdsService.Aplication\\AdsService.Aplication.csproj|d:\\projeto de microservicos\\projeto-microservicos\\ads-service\\adsservice.aplication\\query\\getproductsfilterquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8CD8FA9A-FF06-4BA5-935F-CA9D53718206}|AdsService.WebApi\\AdsService.WebApi.csproj|c:\\projeto-microservicos\\ads-service\\adsservice.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8CD8FA9A-FF06-4BA5-935F-CA9D53718206}|AdsService.WebApi\\AdsService.WebApi.csproj|solutionrelative:adsservice.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0C17B40-C47B-4F38-AAAE-F392485BB754}|AdsService.Aplication\\AdsService.Aplication.csproj|c:\\projeto-microservicos\\ads-service\\adsservice.aplication\\query\\handler\\getproductsfilterhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0C17B40-C47B-4F38-AAAE-F392485BB754}|AdsService.Aplication\\AdsService.Aplication.csproj|solutionrelative:adsservice.aplication\\query\\handler\\getproductsfilterhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A6CCD42-1E9D-43DE-8434-0DA826047550}|AdService.Infra\\AdsService.Infra.csproj|c:\\projeto-microservicos\\ads-service\\adservice.infra\\repository\\queries\\product\\productrepositoryquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A6CCD42-1E9D-43DE-8434-0DA826047550}|AdService.Infra\\AdsService.Infra.csproj|solutionrelative:adservice.infra\\repository\\queries\\product\\productrepositoryquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0C17B40-C47B-4F38-AAAE-F392485BB754}|AdsService.Aplication\\AdsService.Aplication.csproj|c:\\projeto-microservicos\\ads-service\\adsservice.aplication\\query\\getproductsfilterquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0C17B40-C47B-4F38-AAAE-F392485BB754}|AdsService.Aplication\\AdsService.Aplication.csproj|solutionrelative:adsservice.aplication\\query\\getproductsfilterquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABAA2AC2-2B73-4D2F-973B-BE170597F1AC}|AdsService.dommain\\AdsService.Dommain.csproj|d:\\projeto de microservicos\\projeto-microservicos\\ads-service\\adsservice.dommain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABAA2AC2-2B73-4D2F-973B-BE170597F1AC}|AdsService.dommain\\AdsService.Dommain.csproj|solutionrelative:adsservice.dommain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0C17B40-C47B-4F38-AAAE-F392485BB754}|AdsService.Aplication\\AdsService.Aplication.csproj|d:\\projeto de microservicos\\projeto-microservicos\\ads-service\\adsservice.aplication\\query\\getallproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0C17B40-C47B-4F38-AAAE-F392485BB754}|AdsService.Aplication\\AdsService.Aplication.csproj|solutionrelative:adsservice.aplication\\query\\getallproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8CD8FA9A-FF06-4BA5-935F-CA9D53718206}|AdsService.WebApi\\AdsService.WebApi.csproj|c:\\projeto-microservicos\\ads-service\\adsservice.webapi\\controllers\\productcontrolller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD8FA9A-FF06-4BA5-935F-CA9D53718206}|AdsService.WebApi\\AdsService.WebApi.csproj|solutionrelative:adsservice.webapi\\controllers\\productcontrolller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,55 +42,77 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.dommain\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "AdsService.dommain\\Entities\\Product.cs",
-              "ToolTip": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.dommain\\Entities\\Product.cs",
-              "RelativeToolTip": "AdsService.dommain\\Entities\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ContextDB.cs",
+              "DocumentMoniker": "C:\\Projeto-MicroServicos\\Ads-Service\\AdService.Infra\\DbConfigs\\ContextDB.cs",
+              "RelativeDocumentMoniker": "AdService.Infra\\DbConfigs\\ContextDB.cs",
+              "ToolTip": "C:\\Projeto-MicroServicos\\Ads-Service\\AdService.Infra\\DbConfigs\\ContextDB.cs",
+              "RelativeToolTip": "AdService.Infra\\DbConfigs\\ContextDB.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T17:01:41.486Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetAllProductsQuery.cs",
-              "DocumentMoniker": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.Aplication\\Query\\GetAllProductsQuery.cs",
-              "RelativeDocumentMoniker": "AdsService.Aplication\\Query\\GetAllProductsQuery.cs",
-              "ToolTip": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.Aplication\\Query\\GetAllProductsQuery.cs",
-              "RelativeToolTip": "AdsService.Aplication\\Query\\GetAllProductsQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T17:01:11.279Z",
+              "WhenOpened": "2025-08-25T10:50:26.246Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GetProductsFilterQuery.cs",
-              "DocumentMoniker": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.Aplication\\Query\\GetProductsFilterQuery.cs",
-              "RelativeDocumentMoniker": "AdsService.Aplication\\Query\\GetProductsFilterQuery.cs",
-              "ToolTip": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.Aplication\\Query\\GetProductsFilterQuery.cs",
-              "RelativeToolTip": "AdsService.Aplication\\Query\\GetProductsFilterQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T17:00:22.325Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "AdsService.WebApi\\appsettings.json",
+              "ToolTip": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.WebApi\\appsettings.json",
+              "RelativeToolTip": "AdsService.WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-19T22:47:24.16Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductControlller.cs",
-              "DocumentMoniker": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.WebApi\\Controllers\\ProductControlller.cs",
-              "RelativeDocumentMoniker": "AdsService.WebApi\\Controllers\\ProductControlller.cs",
-              "ToolTip": "D:\\Projeto de Microservicos\\Projeto-MicroServicos\\Ads-Service\\AdsService.WebApi\\Controllers\\ProductControlller.cs",
-              "RelativeToolTip": "AdsService.WebApi\\Controllers\\ProductControlller.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAQwEQAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ProductRepositoryQuery.cs",
+              "DocumentMoniker": "C:\\Projeto-MicroServicos\\Ads-Service\\AdService.Infra\\Repository\\Queries\\Product\\ProductRepositoryQuery.cs",
+              "RelativeDocumentMoniker": "AdService.Infra\\Repository\\Queries\\Product\\ProductRepositoryQuery.cs",
+              "ToolTip": "C:\\Projeto-MicroServicos\\Ads-Service\\AdService.Infra\\Repository\\Queries\\Product\\ProductRepositoryQuery.cs",
+              "RelativeToolTip": "AdService.Infra\\Repository\\Queries\\Product\\ProductRepositoryQuery.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwAkAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T16:53:01.842Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-31T18:14:23.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetProductsFilterQuery.cs",
+              "DocumentMoniker": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.Aplication\\Query\\GetProductsFilterQuery.cs",
+              "RelativeDocumentMoniker": "AdsService.Aplication\\Query\\GetProductsFilterQuery.cs",
+              "ToolTip": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.Aplication\\Query\\GetProductsFilterQuery.cs",
+              "RelativeToolTip": "AdsService.Aplication\\Query\\GetProductsFilterQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T17:42:48.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetProductsFilterHandler.cs",
+              "DocumentMoniker": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.Aplication\\Query\\Handler\\GetProductsFilterHandler.cs",
+              "RelativeDocumentMoniker": "AdsService.Aplication\\Query\\Handler\\GetProductsFilterHandler.cs",
+              "ToolTip": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.Aplication\\Query\\Handler\\GetProductsFilterHandler.cs",
+              "RelativeToolTip": "AdsService.Aplication\\Query\\Handler\\GetProductsFilterHandler.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowEcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T17:39:56.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductControlller.cs",
+              "DocumentMoniker": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.WebApi\\Controllers\\ProductControlller.cs",
+              "RelativeDocumentMoniker": "AdsService.WebApi\\Controllers\\ProductControlller.cs",
+              "ToolTip": "C:\\Projeto-MicroServicos\\Ads-Service\\AdsService.WebApi\\Controllers\\ProductControlller.cs",
+              "RelativeToolTip": "AdsService.WebApi\\Controllers\\ProductControlller.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwDcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T16:53:01.842Z"
             }
           ]
         }

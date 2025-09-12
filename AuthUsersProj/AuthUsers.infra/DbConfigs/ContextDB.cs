@@ -1,4 +1,4 @@
-﻿using AuthUsers.domain.Entities;
+﻿using ChatService.dommain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace AuthUsers.infra.DbConfig;
@@ -9,21 +9,15 @@ public class ContextDB : DbContext
     {    
      }
 
-    public DbSet<Employee> Employee { get; set; }
-
-    public DbSet<Users> Users { get; set; }
-
-    public DbSet<Adress> Adress { get; set; }
-
-    public DbSet<AuditLog> AuditLog { get; set; }
+    public DbSet<Chat> Chat { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
 
-        // Configurando Que Um Usuario Pode ter Varios Endereços
-        modelBuilder.Entity<Users>()
-            .HasMany(x => x.Adress)
-            .WithOne(x => x.Users)
-            .HasForeignKey(x => x.IdUser);
+        modelBuilder.Entity<Chat>()
+            .OwnsMany(x => x.Mensages);
+
+        //modelBuilder.Entity<Chat>()
+        //    .OwnsMany(x => x.User);
     }
    }

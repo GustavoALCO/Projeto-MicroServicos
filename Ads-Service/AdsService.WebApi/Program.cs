@@ -1,5 +1,5 @@
-using AdsService.Aplication.Settings;
 using AdsSevice.IOC;
+using ChatService.application.Settings;
 using Microsoft.AspNetCore.Builder;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,7 +14,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.Configure<JWTSettings>(builder.Configuration.GetSection("Jwt"));
 
 //Pega os valores declarados do ConnectionString no appsettings
-builder.Services.Configure<ConnectionString>(builder.Configuration.GetSection("ConnectionStrings"));
+builder.Services.Configure<ConnectionSettings>(builder.Configuration.GetSection("ConnectionStrings"));
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();

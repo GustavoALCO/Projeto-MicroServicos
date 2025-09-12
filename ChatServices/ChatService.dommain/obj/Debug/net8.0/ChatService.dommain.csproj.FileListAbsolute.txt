@@ -1,0 +1,12 @@
+C:\Projeto-MicroServicos\ChatServices\ChatService.dommain\bin\Debug\net8.0\ChatService.dommain.deps.json
+C:\Projeto-MicroServicos\ChatServices\ChatService.dommain\bin\Debug\net8.0\ChatService.dommain.dll
+C:\Projeto-MicroServicos\ChatServices\ChatService.dommain\bin\Debug\net8.0\ChatService.dommain.pdb
+C:\Projeto-MicroServicos\ChatServices\ChatService.dommain\obj\Debug\net8.0\ChatService.dommain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projeto-MicroServicos\ChatServices\ChatService.dommain\obj\Debug\net8.0\ChatService.dommain.AssemblyInfoInputs.cache
+C:\Projeto-MicroServicos\ChatServices\ChatService.dommain\obj\Debug\net8.0\ChatService.dommain.AssemblyInfo.cs
+C:\Projeto-MicroServicos\ChatServices\ChatService.dommain\obj\Debug\net8.0\ChatService.dommain.csproj.CoreCompileInputs.cache
+C:\Projeto-MicroServicos\ChatServices\ChatService.dommain\obj\Debug\net8.0\ChatService.dommain.sourcelink.json
+C:\Projeto-MicroServicos\ChatServices\ChatService.dommain\obj\Debug\net8.0\ChatService.dommain.dll
+C:\Projeto-MicroServicos\ChatServices\ChatService.dommain\obj\Debug\net8.0\refint\ChatService.dommain.dll
+C:\Projeto-MicroServicos\ChatServices\ChatService.dommain\obj\Debug\net8.0\ChatService.dommain.pdb
+C:\Projeto-MicroServicos\ChatServices\ChatService.dommain\obj\Debug\net8.0\ref\ChatService.dommain.dll

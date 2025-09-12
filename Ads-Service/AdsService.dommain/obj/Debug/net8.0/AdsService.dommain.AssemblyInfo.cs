@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AdsService.Dommain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6cc0c22d1b067a63bba2b11bcf165b07581696cb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bdd78af6426e97e5954f1552d58b757b14debae")]
 [assembly: System.Reflection.AssemblyProductAttribute("AdsService.Dommain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AdsService.Dommain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

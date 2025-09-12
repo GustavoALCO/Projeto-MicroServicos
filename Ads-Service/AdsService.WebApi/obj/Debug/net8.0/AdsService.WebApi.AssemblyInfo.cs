@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AdsService.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2cfc931b4a4e05e9b7d6220ba4271032ca667da3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bdd78af6426e97e5954f1552d58b757b14debae")]
 [assembly: System.Reflection.AssemblyProductAttribute("AdsService.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AdsService.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
